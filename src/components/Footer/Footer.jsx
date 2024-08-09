@@ -1,11 +1,11 @@
 import React from 'react'
 
-function App() {
+function Footer() {
   return (
     <div>
-      kulpunai
+      footer
     </div>
   )
 }
 
-export default App
+export default Footer
