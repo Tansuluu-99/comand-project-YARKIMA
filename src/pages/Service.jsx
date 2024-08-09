@@ -1,11 +1,11 @@
 import React from 'react'
 
-function App() {
+function Service() {
   return (
     <div>
-    
+      Service
     </div>
   )
 }
 
-export default App
+export default Service
