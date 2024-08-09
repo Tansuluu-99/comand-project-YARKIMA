@@ -1,11 +1,11 @@
 import React from 'react'
 
-function App() {
+function Layout() {
   return (
     <div>
-      app
+      Layout
     </div>
   )
 }
 
-export default App
+export default Layout
