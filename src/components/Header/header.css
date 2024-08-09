@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    gap: 5px;
+}
+
+.header-left img {
+    width: 40px;
+    height: 40px;
+}
+
+.header-left h1 {
+    margin-top: 0;
+}
+
+.header-center input {
+    border-radius: 99999px;
+    background: rgb(245, 248, 250);
+    border: none;
+    padding: 4px 24px 4px 24px;
+    width: 400px;
+    height: 48px;
+}
+
+.one {
+    width: 103px;
+    height: 48px;
+    padding: 4px 24px 4px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 227, 232);
+    border-radius: 99999px;
+    background: rgb(255, 255, 255);
+
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.two {
+    border-radius: 99999px;
+    width: 226px;
+    height: 48px;
+    padding: 0px 20px 0px 20px;
+    border: none;
+    background: radial-gradient(115.00% 168.00% at 50% -52%, rgb(243, 109, 255), rgb(135, 69, 254) 60.5%, rgb(23, 186, 229) 100%);
+
+    color: rgb(255, 255, 255);
+    font-family: Inter Display;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.header-right{
+    display: flex;
+    gap: 10px;
+}
