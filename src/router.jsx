@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Main from "./pages/Main";
 import Service from "./pages/Service";
 import Code from "./pages/Code";
+import Banner from "./components/banner/Banner";
 
 export const router = createBrowserRouter([
     {
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
             {
                 path: "/code",
                 element: <Code/>
+            },
+            {
+                path: "/banner",
+                element: <Banner/>
             }
         ]
     }
