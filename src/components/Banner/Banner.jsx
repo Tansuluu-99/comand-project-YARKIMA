@@ -1,6 +1,5 @@
 import React from 'react'
 import './Banner.css'
-import people1  from '../../assets/image'
 
 function Banner() {
   return (
@@ -12,17 +11,12 @@ function Banner() {
         <button>Начать бесплатно</button>    
         </div>
     </section> 
-
-    {/* <section className='recomendation'>
-        <h1></h1>
-        <div className='recomendation-about'>
-            <div>
-                <img className='img' src={people1} alt="" />
-            </div>
-        </div>
-    </section> */}
     </>
   )
 }
 
+
+
 export default Banner
+
+
