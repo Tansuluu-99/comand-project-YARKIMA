@@ -8,6 +8,7 @@ import Code from "./pages/Code";
 import Banner from "./components/banner/Banner";
 import Recommendation from "./components/Recommendation/Recommendation";
 import Author from "./components/Author/Author"
+import Review from "./components/Review/Review";
 
 
 export const router = createBrowserRouter([
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
             {
                 path: "/author",
                 element: <Author/>
+            },
+            {
+                path: "/review",
+                element: <Review/>
             }
            
             

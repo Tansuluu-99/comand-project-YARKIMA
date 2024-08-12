@@ -1,0 +1,99 @@
+/* .site {
+	margin: 20px 0; 
+	width: 320px; 
+	height: 320px;
+	background: #F1CCAE;
+	position: relative;
+	}
+	.site:before, 
+	.site:after {
+	content: "";
+	width: 0; 
+	height: 0;
+	position: absolute; 
+	left: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	}
+	.site:before {
+	top: -25px;
+	border-bottom: 25px solid #F1CCAE;
+	}
+	.site:after {
+	bottom: -25px;
+	border-top: 25px solid #F1CCAE;
+	} */
+
+.deg {
+	position: relative;
+	width: 159px;
+	height: 80.74px;
+	background-color: #6C9;
+	margin: 28.87px 0;
+	margin-left: 0px;
+	margin-left: 100px;
+}
+
+.deg:before,
+.deg:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+}
+
+.deg:before {
+	bottom: 100%;
+	border-bottom: 50.87px solid #6C9;
+}
+
+.deg:after {
+	top: 100%;
+	width: 0;
+	border-top: 50.87px solid #6C9;
+}
+
+/* Adding the border */
+.deg-border {
+	position: relative;
+	display: inline-block;
+}
+
+.deg-border .hexagon {
+	background-color: white;
+}
+
+.deg-border:before,
+.deg:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+}
+
+.deg-border:before {
+	bottom: 100%;
+	border-bottom: 30px solid #6C9;
+}
+
+.deg-border:after {
+	top: 100%;
+	width: 0;
+	border-top: 30px solid #6C9;
+}
+
+.deg .hexagon:before,
+.deg-border .hexagon:after {
+	border-left-width: 48px;
+	border-right-width: 48px;
+}
+
+.deg-border .hexagon:before {
+	border-bottom-width: 26.87px;
+}
+
+.deg-border .hexagon:after {
+	border-top-width: 26.87px;
+}
