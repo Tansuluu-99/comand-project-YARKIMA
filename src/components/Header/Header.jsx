@@ -13,7 +13,7 @@ function Header() {
 
 
        <div className='header-center'>
-       <input type="text" placeholder='поиск' />
+       <input type="text" placeholder='Поиск' />
        </div>
 
        <div className='header-right'>
