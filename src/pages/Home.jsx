@@ -4,6 +4,11 @@ import Recommendation from '../components/Recommendation/Recommendation'
 import Author from '../components/Author/Author'
 import Reviews from '../components/reviews/Reviews'
 
+import Banner from './components/banner/Banner'
+import Recommendation from '../components/Recommendation/Recommendation'
+import Author from '../components/Author/Author'
+import Trust from '../components/trust/Trust'
+
 function Home() {
   return (
     <div>
@@ -11,6 +16,7 @@ function Home() {
       <Recommendation/>
       <Author/>
       <Reviews/>
+      <Trust/>
     </div>
   )
 }
