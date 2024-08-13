@@ -1,5 +1,8 @@
 import React from 'react'
 import Banner from '../components/Banner/Banner'
+import Recommendation from '../components/Recommendation/Recommendation'
+import Author from '../components/Author/Author'
+import Reviews from '../components/reviews/Reviews'
 
 import Banner from './components/banner/Banner'
 import Recommendation from '../components/Recommendation/Recommendation'
@@ -12,6 +15,7 @@ function Home() {
       <Banner/>
       <Recommendation/>
       <Author/>
+      <Reviews/>
       <Trust/>
     </div>
   )
