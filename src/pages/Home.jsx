@@ -10,6 +10,7 @@ function Home() {
       <Banner/>
       <Recommendation/>
       <Author/>
+      <Reviews/>
       <Trust/>
     </div>
   )

@@ -1,0 +1,74 @@
+.reviews {
+  position: relative;
+}
+
+.reviews h1 {
+  color: rgb(25, 26, 38);
+  font-family: Roboto Flex;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: -1%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.review {
+  position: relative;
+}
+
+.rew{
+  display: flex;
+  gap: 20px;
+  width: 1200px;
+  margin: 0 auto;
+  
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.review-content {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+
+.review h4 {
+  width: 330px;
+
+  color: rgb(25, 26, 38);
+  font-family: Inter Display;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -1%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.review h3 {
+  color: rgb(142, 53, 255);
+  font-family: Inter Display;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -1%;
+  text-align: center;
+}
+
+.review p {
+  color: rgb(139, 142, 154);
+  font-family: Inter Display;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -1%;
+  text-align: center;
+}
+
+.man {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-left: 130px;
+}
