@@ -50,7 +50,7 @@ function Footer() {
 
 
 
-    <div className='footer-bottom container'>
+    <div className='footer-bottom'>
       <p>2024 YarKiMa</p>
       <p>Политика конфиденциальности</p>
       <p>Условия использования</p>
