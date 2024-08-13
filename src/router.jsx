@@ -7,7 +7,7 @@ import Service from "./pages/Service";
 import Code from "./pages/Code";
 import Banner from "./components/Banner/Banner"
 
-import Banner from "./components/banner/Banner";
+import Banner from "../components/banner/Banner";
 
 import Recommendation from "./components/Recommendation/Recommendation";
 import Author from "./components/Author/Author"
