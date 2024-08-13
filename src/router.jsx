@@ -5,10 +5,11 @@ import About from "./pages/About";
 import Main from "./pages/Main";
 import Service from "./pages/Service";
 import Code from "./pages/Code";
-import Banner from "./components/banner/Banner";
+import Banner from "./components/Banner/Banner"
 import Recommendation from "./components/Recommendation/Recommendation";
 import Author from "./components/Author/Author"
-import Review from "./components/Review/Review";
+import Trust from "./components/trust/Trust";
+
 
 
 export const router = createBrowserRouter([
@@ -49,9 +50,10 @@ export const router = createBrowserRouter([
                 element: <Author/>
             },
             {
-                path: "/review",
-                element: <Review/>
-            }
+                path: "/trust",
+                element: <Trust/>
+            },
+            
            
             
         ]
