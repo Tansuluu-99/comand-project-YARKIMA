@@ -1,0 +1,98 @@
+.figures{
+    /* grid-template-columns: repeat(5,1fr); */
+    width: 1240px;
+    display: flex;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.figuress{
+    display: flex;
+    /* grid-template-columns: repeat(5,1fr);/ */
+    width: 1440px;
+    margin: 0 auto;
+    margin-right: 360px;
+    overflow: hidden;
+}
+.figuresss{
+    display: flex;
+    /* grid-template-columns: repeat(5,1fr);/ */
+    width: 1440px;
+    margin: 0 auto;
+    margin-right: 230px;
+    overflow: hidden;
+}
+.figure-img{
+    width: 260px;
+    height: 280px;
+}
+
+.figures{
+    width: 1440px;
+    animation: figures 20s infinite linear;
+}
+.figuress{
+    width: 1440px;
+    animation: figures 20s infinite linear;
+}
+.figuresss{
+    width: 1440px;
+    animation: figures 20s infinite linear;
+}
+
+
+@keyframes figures {
+	from {
+		margin-right: 0;
+	}
+	to {
+		margin-right: 100%;
+	}
+}
+@keyframes figuress {
+	from {
+		margin-right: 0;
+	}
+	to {
+		margin-right: 100%;
+	}
+}
+@keyframes figuresss {
+	from {
+		margin-right: 0;
+	}
+	to {
+		margin-right: 100%;
+	}
+}
+
+
+/* @keyframes figures{
+    0%{
+        left: 0;
+    }
+    25%{
+        left: 2100px;
+        top: 0;
+    }
+    50%{
+        left: 0;
+        top: 1200px;
+    }
+    75%{
+        left: 2100px;
+        top: 1200px;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+} 
+
+/* .animation{
+    width: 2200px;
+    height: 1300px;
+    border: 10px inset red;
+    margin: 0 auto;
+} */
+
+

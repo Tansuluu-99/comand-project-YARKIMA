@@ -1,0 +1,89 @@
+
+
+.all-container{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1328px;
+}
+
+.about-hexagon {
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.hex-k-img {
+    width: 320px;
+    height: 320px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.hex-k-img img{
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+}
+
+.hexagon-about {
+    position: absolute;
+    top: 35px;
+    left: 100px;
+}
+
+.hexagon-about img {
+    width: 100px;
+    height: 100px;
+}
+.bottom-hexagon img{
+    width: 16px;
+    height: 16px;
+    margin-top: 15px;
+} 
+.bottom-hexagon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 81px;
+    height: 20px;
+    margin: 0 auto;
+}
+.hexagon-about p{
+    width: 240px;
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -1%;
+    text-align: center; 
+    margin: 0 auto; 
+    margin-top: 15px;  
+}
+.hexagon-about h1{
+    font-family: Inter Display;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: left;
+    color: horizontal-gradient (115.00% 168.00% at 50% -52%,rgb(243, 109, 255), rgb(135, 69, 254), rgb(23, 186, 229) ) 
+   ;
+   margin: 0 auto;
+   margin-top: 15px;
+}
+.hexagon-about{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -320px;
+    left: -0px;
+}
+.actives{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1050px;
+}
