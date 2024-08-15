@@ -66,7 +66,7 @@ export const router = createBrowserRouter([
             {
                 path: "/katolog",
                 element: <Katolog/>
-            },
+            },{
                 path: "/figuree",
                 element: <Figure/>
             },  
