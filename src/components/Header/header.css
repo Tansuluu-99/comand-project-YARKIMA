@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    /* margin-top: 100px; */
+    padding-top: 30px;
 }
 
 .header-left {
@@ -50,6 +50,9 @@
     line-height: 24px;
     letter-spacing: -1%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-transform: uppercase;
 }
 
@@ -60,6 +63,9 @@
     padding: 0px 20px 0px 20px;
     border: none;
     background: radial-gradient(115.00% 168.00% at 50% -52%, rgb(243, 109, 255), rgb(135, 69, 254) 60.5%, rgb(23, 186, 229) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     color: rgb(255, 255, 255);
     font-family: Inter Display;
