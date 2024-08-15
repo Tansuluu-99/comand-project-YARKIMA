@@ -18,6 +18,7 @@ import Trust from "./components/trust/Trust";
 import Katolog from "./pages/Katolog";
 
 import Figure from "./components/Figure/Figure";
+import HexBanner from "./components/hex-banner/HexBanner";
 
 
 
@@ -69,6 +70,10 @@ export const router = createBrowserRouter([
             },{
                 path: "/figuree",
                 element: <Figure/>
+            },  
+            {
+                path: "/hexbanner",
+                element: <HexBanner/>
             },  
         ]
     }
