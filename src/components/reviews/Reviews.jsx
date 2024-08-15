@@ -26,8 +26,6 @@ function Reviews({ description, age, name, image }) {
      
     </div>
   )
-
-
 }
 
 export default Reviews
