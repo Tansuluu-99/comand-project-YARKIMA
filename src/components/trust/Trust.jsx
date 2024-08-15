@@ -1,7 +1,7 @@
 import React from 'react'
 import './Trust.scss'
 import vk from '../../assets/image/vk.png'
-import bank from '../../assets/image/sberbank.png'
+import bank from '../../assets/image/sberBank.png'
 import yandex from '../../assets/image/yandex.png'
 import skillbox from '../../assets/image/skillbox.png'
 
