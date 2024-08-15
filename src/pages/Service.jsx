@@ -1,10 +1,11 @@
 import React from 'react'
+import ServiceCom from '../components/service/Service'
 
 function Service() {
   return (
-    <div>
-      Service
-    </div>
+    <>
+      <ServiceCom/>
+    </>
   )
 }
 
