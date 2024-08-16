@@ -16,6 +16,7 @@ import Author from "./components/Author/Author"
 import Trust from "./components/trust/Trust";
 import Figure from "./components/Figure/Figure";
 import HexBanner from "./components/hex-banner/HexBanner";
+import Popular from "./components/popular/Popular";
 
 
 
@@ -67,6 +68,10 @@ export const router = createBrowserRouter([
             {
                 path: "/hexbanner",
                 element: <HexBanner/>
+            }, 
+            {
+                path: "/popular",
+                element: <Popular/>
             },  
         ]
     }
