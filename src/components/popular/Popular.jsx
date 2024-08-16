@@ -19,7 +19,7 @@ function Popular() {
           <div className='popular-first'>
             <img src={sword} alt="" />
             <div className='small'>
-              <img className='vector' src={vector} alt="" />
+              <img className='vector' src={vector}  alt="" />
               <p>21 курс</p>
             </div>
           </div>
