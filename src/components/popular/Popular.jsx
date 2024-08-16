@@ -1,4 +1,13 @@
 import React from 'react'
+
+// import sword from "../../assets/svg/sword.svg"
+// import vector from "../../assets/svg/vector.svg"
+// import "./popular.css"
+// import { katalog } from '../../data/katalog'
+// import kub from "../../assets/svg/kub.svg"
+// import six from "../../assets/svg/six.svg"
+import back from "../../assets/image/back.png"
+
 import sword from "../../assets/svg/sword.svg"
 import vector from "../../assets/svg/vector.svg"
 import "./popular.css"
@@ -7,19 +16,28 @@ import kub from "../../assets/svg/kub.svg"
 import six from "../../assets/svg/six.svg"
 import popular from "../../assets/image/color.png"
 
+
 function Popular() {
   return (
     <div className='category container'>
       <h1>КАТЕГОРИИ</h1>
       <div className='populars'>
+
+        <img className='gradient' src={back} alt="" />
+
         <img className='gradient' src={popular} alt="" />
+
         <h2>ПОПУПЛЯРНЫЕ КАТЕГОРИИ</h2>
         <div className='popular-flex'>
         <div className='popularies'>
           <div className='popular-first'>
             <img src={sword} alt="" />
             <div className='small'>
+
+              <img className='vector' src={vector}  alt="" />
+
               <img className='vector' src={vector} alt="" />
+
               <p>21 курс</p>
             </div>
           </div>
