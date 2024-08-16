@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Main from "./pages/Main";
 import Service from "./pages/Service";
 import Code from "./pages/Code";
+import Course from "./pages/course";
 
 
 
@@ -17,7 +18,7 @@ import Trust from "./components/trust/Trust";
 import Figure from "./components/Figure/Figure";
 import HexBanner from "./components/hex-banner/HexBanner";
 import Popular from "./components/popular/Popular";
-
+import Language from "./components/language/Language";
 
 
 export const router = createBrowserRouter([
@@ -44,6 +45,10 @@ export const router = createBrowserRouter([
             {
                 path: "/code",
                 element: <Code/>
+            },
+            {
+                path: "/course",
+                element: <Course/>
             },
             {
                 path: "/banner",
@@ -73,6 +78,11 @@ export const router = createBrowserRouter([
                 path: "/popular",
                 element: <Popular/>
             },  
+            {
+                path: "/language",
+                element: <Language/>
+            }, 
+            
         ]
     }
 ])
