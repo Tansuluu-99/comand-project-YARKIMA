@@ -6,7 +6,7 @@ import Main from "./pages/Main";
 import Service from "./pages/Service";
 import Code from "./pages/Code";
 import Course from "./pages/course";
-
+import Cube from "./pages/Cube";
 
 
 import Banner from "./components/Banner/Banner";
@@ -21,7 +21,8 @@ import Katolog from "./pages/Katolog";
 import Figure from "./components/Figure/Figure";
 import HexBanner from "./components/hex-banner/HexBanner";
 import Popular from "./components/popular/Popular";
-import Language from "./components/language/Language";
+import Language from "./components/language/language";
+import CubeLanguage from "./components/cubeLanguage/CubeLanguage";
 
 
 
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
             {
                 path: "/about",
                 element: <About/>
+            },
+            {
+                path: "/cube",
+                element: <Cube/>
             },
             {
                 path: "/main",
@@ -74,7 +79,7 @@ export const router = createBrowserRouter([
                 path: "/katolog",
                 element: <Katolog/>
             },{
-                path: "/figuree",
+                path: "/figure",
                 element: <Figure/>
             },  
             {
@@ -88,6 +93,10 @@ export const router = createBrowserRouter([
             {
                 path: "/language",
                 element: <Language/>
+            },  
+            {
+                path: "/cubelanguage",
+                element: <CubeLanguage/>
             }, 
             
         ]

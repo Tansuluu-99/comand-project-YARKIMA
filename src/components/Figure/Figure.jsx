@@ -3,6 +3,8 @@ import './Figure.css'
 import figure from '../../data/figure'
 import Slider from "react-slick";
 import Marquee from 'react-fast-marquee';
+import figurees from '../../data/figurees';
+import figuress from '../../data/figuress';
 
 
 
@@ -37,7 +39,7 @@ function Figure({image}) {
       <Marquee direction="left">
 
         {
-          figure.map((x) => (
+          figurees.map((x) => (
             <img className='figure-img' src={x.image} 
             alt="" />
           ))
@@ -49,7 +51,7 @@ function Figure({image}) {
       <Marquee direction="right">
 
         {
-          figure.map((x) => (
+          figuress.map((x) => (
 
             <img className='figure-img' src={x.image} 
             alt="" />
