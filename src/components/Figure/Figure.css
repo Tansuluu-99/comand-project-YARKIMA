@@ -5,7 +5,6 @@
     overflow: hidden;
 }
 .figuress{
-    display: flex;
     width: 1440px;
     margin: 0 auto;
     /* margin-right: 350px; */
@@ -16,13 +15,12 @@
 
 }
 .figuresss{
-    display: flex;
     width: 1440px;
     margin: 0 auto;
-    margin-right: 230px;
+    /* margin-right: 230px; */
     overflow: hidden;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .figure-img{

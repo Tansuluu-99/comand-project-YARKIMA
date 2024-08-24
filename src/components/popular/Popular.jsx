@@ -15,6 +15,7 @@ import { katalog } from '../../data/katalog'
 import kub from "../../assets/svg/kub.svg"
 import six from "../../assets/svg/six.svg"
 import popular from "../../assets/image/color.png"
+import './popular.css'
 
 
 function Popular() {
@@ -53,7 +54,7 @@ function Popular() {
             <p>Борьба за смысл, снижение того, во что есть вера, устойчивость позиций своих и необходимость переход...</p>
           </div>
         </div>
-        <div className='popularies'>
+       <a href="/language"><div className='popularies'>
           <div className='popular-first'>
             <img src={sword} alt="" />
             <div className='small'>
@@ -72,7 +73,7 @@ function Popular() {
             <h3>Воин</h3>
             <p>Борьба за смысл, снижение того, во что есть вера, устойчивость позиций своих и необходимость переход...</p>
           </div>
-        </div>
+        </div></a> 
         <div className='popularies'>
           <div className='popular-first'>
             <img src={sword} alt="" />
@@ -121,7 +122,7 @@ function Popular() {
 
         <div className='popular-btn'>
           <img src={kub} alt="" />
-          <img src={six} alt="" />
+         <a href="/hexBanner"><img src={six} alt="" /></a>
         </div>
       </div>
 

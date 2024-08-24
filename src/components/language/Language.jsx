@@ -10,32 +10,49 @@ import hexagon1 from '../../assets/svg/hexagon1.svg';
 import hexagon2 from '../../assets/svg/hexagon2.svg';
 import hexagon3 from '../../assets/svg/hexagon3.svg';
 import course from '../../data/course.js';
+import kub from '../../assets/svg/kub.svg'
+import six from '../../assets/svg/six.svg'
+
 
 function Language() {
     return (
 
+        <>
+        <div className='all-lan-hex'>
+        <div className='transition'>
+        <div className='in'>
+          <p>Категории</p>
+          <p>/</p>
+          <p>Языки</p>
+        </div>
+        <h1>Языки</h1>
+      </div>
 
-            <section className='course'>
+      <div className='flexx'>
+        <div>
+          <div className='so1'>
+            <select>
+              <option>САМЫЕ ПОПУЛЯРНЫЕ</option>
+            </select>
+          </div>
 
-        <div className='flex'>
-            <div>
-                <div className='so'>
-                    <select>
-                        <option>САМЫЕ ПОПУЛЯРНЫЕ</option>
-                        <option>en</option>
-                        <option>ru</option>
-                    </select>
-                </div>
+          <div className='tipp'>
+            <select>
+              <option>ТИП</option>
+            </select>
+          </div>
+        </div>
 
-                <div className='tip'>
-                    <select>
-                        <option>ТИП</option>
-                        <option>en</option>
-                        <option>ru</option>
-                    </select>
-                </div>
-            </div>
-            </div>
+
+
+        <div className='popularr-btn'>
+         <img src={kub} alt="" />
+         <a href="/cubelanguage"><img src={six} alt="" /></a> 
+        </div>
+      </div>
+        <section className='course'>
+
+           
 
             <section className='course'>
 
@@ -255,9 +272,11 @@ function Language() {
 
 
 
-                        </section>
             </section>
-            );
+        </section>
+        </div>
+        </>
+    );
 }
 
-            export default Language;
+export default Language;

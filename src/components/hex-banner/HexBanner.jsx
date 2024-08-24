@@ -16,7 +16,7 @@ function HexBanner() {
   const [popupIndex, setPopupIndex] = useState();
   const [index, setIndex] = useState(false);
   const [indexType, setIndexType] = useState();
-  const ref = useOutSideClick(() => setPopup(false))
+  const ref = useOutSideClick(() => setPopup(fals))
   const refIndex = useOutSideClick(() => setPopupIndex(false))
   const filter = ["Самые популярные", "Самые дешевые"];
 
@@ -48,7 +48,7 @@ function HexBanner() {
     <>
       <h1 className='katalog-h1'>Категории</h1>
 
-      <h1 className='popular'>Популярные Категории</h1>
+      <h1 className='populars'>Популярные Категории</h1>
       <img id='back' src={backs} alt="" />
 
       <div className='katalog-banner'>
@@ -132,7 +132,7 @@ function HexBanner() {
 
           <div className='content'>
             <div className='hexagon-icon'>
-              <img src={square} alt="" />
+             <a href="/popular"><img src={square} alt="" /></a> 
               <img src={hicon} alt="" />
             </div>
           </div>
