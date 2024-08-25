@@ -11,9 +11,9 @@ function FirstCourse() {
     <>
     <div className='top-course'>
       <div id='choising'>
-        <p>Категории</p>
+        <a href="/popular"><p>Категории</p></a>
         <p>/</p>
-        <p >Языки</p>
+        <a href="/cubelanguage"><p >Языки</p></a>
       </div>
 
       <div className='bottom-course'>

@@ -1,0 +1,334 @@
+.all-description {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.first-description {
+    width: 632px;
+    height: 238px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 227, 232);
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.second-description {
+    width: 632px;
+    height: 238px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 227, 232);
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+}
+
+.top-firs†-description {
+    width: 584px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.top-firs†-description h1 {
+    color: rgb(25, 26, 38);
+    font-family: Roboto Flex;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -1%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.top-firs†-description p {
+    color: rgb(142, 53, 255);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bottom-description {
+    width: 324px;
+    height: 126px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.polyglott {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.polyglott img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.polyglott p {
+    color: rgb(25, 26, 38);
+    font-family: Roboto Flex;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -1%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* -------------------- */
+
+
+.top-second-description {
+    width: 584px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.top-second-description h1 {
+    color: rgb(25, 26, 38);
+    font-family: Roboto Flex;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -1%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.top-second-description p {
+    color: rgb(142, 53, 255);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.second-description h3 {
+    width: 584px;
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+/* ------------------------ */
+
+
+
+.about-bottom-course {
+    width: 1270px;
+    height: 172px;
+    margin: 0 auto;
+    box-sizing: border-box;
+border: 1px solid rgb(222, 227, 232);
+ border-radius: 20px; 
+background: rgb(255, 255, 255);
+padding-left: 20px;
+margin-top: 30px;
+
+}
+
+.about-bottom-course h1 {
+    color: rgb(25, 26, 38);
+    font-family: Roboto Flex;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -1%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.minutes {
+    width: 1232px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.first-minute {
+    width: 69px;
+}
+
+.first-minute p {
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: center;
+}
+
+.first-minute h3 {
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.second-minute {
+    width: 165px;
+}
+
+.second-minute p {
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: center;
+}
+
+.second-minute h3 {
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: left;
+    margin-left: 13px;
+}
+
+.third-minute {
+    width: 120px;
+}
+
+.third-minute p {
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: center;
+}
+
+.third-minute h3 {
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: left;
+    margin-left: 7px;
+}
+
+
+.fourth-minute {
+    width: 203px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.again-divf {
+    width: 86px;
+    height: 32px;
+    border-radius: 48px;
+    background: rgb(245, 248, 250);
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.again-divs {
+    width: 66px;
+    height: 32px;
+    border-radius: 48px;
+    background: rgb(245, 248, 250);
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.again-divt {
+    width: 85px;
+    height: 32px;
+    border-radius: 48px;
+    background: rgb(245, 248, 250);
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth-minute{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fifth-minute img{
+    width: 64px;
+    height: 64px;
+}
+
+.fourth-minute p{
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: left;    
+}
+.bottom-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

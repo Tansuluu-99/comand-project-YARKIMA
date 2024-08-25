@@ -25,6 +25,8 @@ import Popular from "./components/popular/Popular";
 import Language from "./components/language/language";
 import CubeLanguage from "./components/cubeLanguage/CubeLanguage";
 import FirstCourse from "./components/firstCourse/FirstCourse";
+import Description from "./components/description/Description";
+import Price from "./components/Price/price";
 
 
 
@@ -108,6 +110,15 @@ export const router = createBrowserRouter([
                 path: "/firstCourse",
                 element: <FirstCourse/>
             }, 
+            {
+                path: "/description",
+                element: <Description/>
+            }, 
+            {
+                path: "/price",
+                element: <Price/>
+            }, 
+            
             
         ]
     }
