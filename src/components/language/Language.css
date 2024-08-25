@@ -1,5 +1,5 @@
 .all-lan-hex{
-    width: 1440px;
+    width: 1280px;
     margin: 0 auto;
 }
 
@@ -70,7 +70,7 @@
     margin: 50px;
     margin-left: 0px;
     width: 1440px;
-}
+}ƒ
 
 .tipp {
     box-sizing: border-box;
@@ -107,7 +107,7 @@
     align-items: center;
     width: 1128px;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-left: 250px;
 }
 
@@ -116,7 +116,8 @@
     flex-direction: column;
     margin-top: -1100px;
     margin-left: -200px;
-    /* margin-left: 200px; */
+    /* position: fixed; */
+    /* margin-left: -1400px; */
 }
 
 .all-language {

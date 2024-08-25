@@ -21,7 +21,7 @@ function Language() {
         <div className='all-lan-hex'>
         <div className='transition'>
         <div className='in'>
-          <p>Категории</p>
+         <a href="/popular"><p>Категории</p></a> 
           <p>/</p>
           <p>Языки</p>
         </div>
@@ -96,7 +96,8 @@ function Language() {
 
                             <div className='main-figure'>
                                 <img id='main-figure-img' src={hex2} alt="Main Figure" />
-                                <div key={x.id} className='poligon'>
+                               <a href="/aboutCourse">
+                               <div key={x.id} className='poligon'>
                                     <img className='polygon-img' src={x.flag} alt={x.title} />
                                     <div className='polygon-profile'>
                                         <img src={x.profile} alt="Profile" />
@@ -127,7 +128,7 @@ function Language() {
                                         <img src={hexagon2} alt="Hexagon 2" />
                                         <img src={hexagon3} alt="Hexagon 3" />
                                     </div>
-                                </div>
+                                </div></a> 
 
                             </div>
                         ))}
@@ -275,6 +276,8 @@ function Language() {
             </section>
         </section>
         </div>
+
+        <div className='bottomLine'></div>
         </>
     );
 }

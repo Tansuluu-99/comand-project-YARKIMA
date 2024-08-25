@@ -27,6 +27,7 @@ import CubeLanguage from "./components/cubeLanguage/CubeLanguage";
 import FirstCourse from "./components/firstCourse/FirstCourse";
 import Description from "./components/description/Description";
 import Price from "./components/Price/price";
+import AboutRewievs from "./components/AboutReviews/AboutRewievs";
 
 
 
@@ -117,6 +118,10 @@ export const router = createBrowserRouter([
             {
                 path: "/price",
                 element: <Price/>
+            }, 
+            {
+                path: "/aboutReviews",
+                element: <AboutRewievs/>
             }, 
             
             
