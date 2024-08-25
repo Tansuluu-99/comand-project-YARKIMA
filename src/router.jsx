@@ -7,6 +7,7 @@ import Service from "./pages/Service";
 import Code from "./pages/Code";
 import Course from "./pages/course";
 import Cube from "./pages/Cube";
+import AboutCourse from "./pages/AboutCourse";
 
 
 import Banner from "./components/Banner/Banner";
@@ -23,6 +24,7 @@ import HexBanner from "./components/hex-banner/HexBanner";
 import Popular from "./components/popular/Popular";
 import Language from "./components/language/language";
 import CubeLanguage from "./components/cubeLanguage/CubeLanguage";
+import FirstCourse from "./components/firstCourse/FirstCourse";
 
 
 
@@ -34,6 +36,10 @@ export const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home/>
+            },
+            {
+                path: "/AboutCourse",
+                element: <AboutCourse/>
             },
             {
                 path: "/about",
@@ -97,6 +103,10 @@ export const router = createBrowserRouter([
             {
                 path: "/cubelanguage",
                 element: <CubeLanguage/>
+            }, 
+            {
+                path: "/firstCourse",
+                element: <FirstCourse/>
             }, 
             
         ]
