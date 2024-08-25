@@ -44,8 +44,8 @@ function CubeLanguage() {
 
 
         <div className='popularr-btn'>
-          <a href="/language"><img src={kub} alt="" /></a>
-          <img src={six} alt="" />
+          <img src={kub} alt="" />
+          <a href="/language"><img src={six} alt="" /></a>
         </div>
       </div>
 
@@ -94,14 +94,17 @@ function CubeLanguage() {
 
         <div className='firstLeft'>
           <img  src={x.flag} alt="" />
+          <div className='sec-star'>
+
           <div className='second-star'>
             <img src={star} alt="" />
             <p className='p-active' >4.9</p>
             <p className='s-actives'>(24)</p>
           </div>
-          <div className='about-div-f'>Квиз</div>
-          <div id='about-div-s'>32 карточки</div>
-          <div id='about-div-th'>12+</div>
+          </div>
+          <div className='aboutt-div-f'>Квиз</div>
+          <div id='aboutt-div-s'>32 карточки</div>
+          <div id='aboutt-div-th'>12+</div>
         </div>
         <div className='secondRight'>
           <img src={x.profile} alt="" />

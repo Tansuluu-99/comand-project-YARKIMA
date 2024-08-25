@@ -202,6 +202,10 @@
     border-radius: 20px;
     background: rgb(255, 255, 255);
     margin-top: 20px;
+    transition: border 0.5s ease;
+}
+.hex-cube:hover{
+    border: 1px solid rgb(142, 53, 255);
 }
 
 .all-fs {
@@ -232,6 +236,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    transition: border 0.1s ease, tranform 0.5s ease;
+}
+.sec-star{
+}
+.sec-star:hover{
+    width: 90px;
+    height: 32px;
+    border-radius: 30px;
+    border: 1px solid rgb(142, 53, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .second-star p{
     color: gray;
@@ -263,7 +280,7 @@
     color: black;
 }
 
-.about-div-f {
+.aboutt-div-f {
     width: 56px;
     height: 32px;
     border-radius: 48px;
@@ -278,10 +295,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-left: 50px; */
+    transition: background-color 1s ease, transform 1s ease;
+
 }
 
-.about-div-s {
+#aboutt-div-s {
     width: 105px;
     height: 32px;
     border-radius: 48px;
@@ -296,9 +314,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 1s ease, transform 1s ease;
 }
 
-.about-div-th {
+#aboutt-div-th {
     width: 47px;
     height: 32px;
     border-radius: 48px;
@@ -313,6 +332,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 1s ease, transform 1s ease;
+
 }
 
 .secondRight {
@@ -323,10 +344,16 @@
     margin-left: 340px;
 }
 
+
 .secondRight img {
     width: 40px;
     height: 40px;
 }
+.secondRight img:hover {
+    width: 35px;
+    height: 35px;
+}
+
 
 .secondRight h3 {
     color: rgb(25, 26, 38);
@@ -402,7 +429,12 @@
     text-align: center;   
     display: flex;
     justify-content: center;
-    align-items: center;     
+    align-items: center;    
+    transition: background-color 1s ease, transform 1s ease; 
+}
+.first-active:hover{
+    background-color:rgb(142, 53, 255) ;
+    color: white;
 }
 .second-active{
     width: 66px;
@@ -418,7 +450,13 @@
     text-align: center;  
     display: flex;
     justify-content: center;
-    align-items: center;        
+    align-items: center;     
+    transition: background-color 1s ease, transform 1s ease; 
+
+}
+.second-active:hover{
+    background-color:rgb(142, 53, 255) ;
+    color: white;
 }
 .third-active{
     width: 85px;
@@ -434,8 +472,15 @@
     text-align: center;  
     display: flex;
     justify-content: center;
-    align-items: center;        
+    align-items: center;   
+    transition: background-color 1s ease, transform 1s ease; 
+
 }
+.third-active:hover{
+    background-color:rgb(142, 53, 255) ;
+    color: white;
+}
+
 .right-bottom{
     display: flex;
     justify-content: space-between;
@@ -466,4 +511,28 @@
     height: 1px;
     background-color: rgb(142, 53, 255);
     margin: 0 auto;
+}
+
+.classes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    ;
+}
+/* ---------HOVER--------- */
+
+
+.aboutt-div-f:hover{
+    /* width: 56;
+    height: 32px; */
+    background-color:rgb(142, 53, 255) ;
+    color: white;
+}
+#aboutt-div-s:hover{
+    background-color:rgb(142, 53, 255) ;
+    color: white;
+}
+#aboutt-div-th:hover{
+    background-color:rgb(142, 53, 255) ;
+    color: white;
 }
