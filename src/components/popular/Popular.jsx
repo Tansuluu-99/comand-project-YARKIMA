@@ -20,13 +20,12 @@ import './popular.css'
 
 function Popular() {
   return (
-    <div className='category container'>
+    <div className='category '>
       <h1>КАТЕГОРИИ</h1>
       <div className='populars'>
 
         <img className='gradient' src={back} alt="" />
 
-        <img className='gradient' src={popular} alt="" />
 
         <h2>ПОПУПЛЯРНЫЕ КАТЕГОРИИ</h2>
         <div className='popular-flex'>
@@ -37,7 +36,7 @@ function Popular() {
 
                 <img className='vector' src={vector} alt="" />
 
-                <img className='vector' src={vector} alt="" />
+               
 
                 <p>21 курс</p>
               </div>
@@ -56,7 +55,7 @@ function Popular() {
           </div>
           <a href="/language"><div className='popularies'>
             <div className='popular-first'>
-              <img src={sword} alt="" />
+              <img  src={sword} alt="" />
               <div className='small'>
                 <img className='vector' src={vector} alt="" />
                 <p>21 курс</p>
@@ -151,7 +150,11 @@ function Popular() {
         ))}
       </div>
 
+      <div className='bottomLine'></div>
+
     </div>
+
+
   )
 }
 
