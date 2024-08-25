@@ -30,74 +30,74 @@ function Popular() {
 
         <h2>ПОПУПЛЯРНЫЕ КАТЕГОРИИ</h2>
         <div className='popular-flex'>
-        <div className='popularies'>
-          <div className='popular-first'>
-            <img src={sword} alt="" />
-            <div className='small'>
+          <div className='popularies'>
+            <div className='popular-first'>
+              <img src={sword} alt="" />
+              <div className='small'>
 
-              <img className='vector' src={vector}  alt="" />
+                <img className='vector' src={vector} alt="" />
 
-              <img className='vector' src={vector} alt="" />
+                <img className='vector' src={vector} alt="" />
 
-              <p>21 курс</p>
+                <p>21 курс</p>
+              </div>
+            </div>
+
+            <div className='popular-second'>
+              <button>Душа</button>
+              <button>Личность</button>
+              <button>Вселенная</button>
+            </div>
+
+            <div className='popular-three'>
+              <h3>Воин</h3>
+              <p>Борьба за смысл, снижение того, во что есть вера, устойчивость позиций своих и необходимость переход...</p>
             </div>
           </div>
+          <a href="/language"><div className='popularies'>
+            <div className='popular-first'>
+              <img src={sword} alt="" />
+              <div className='small'>
+                <img className='vector' src={vector} alt="" />
+                <p>21 курс</p>
+              </div>
+            </div>
 
-          <div className='popular-second'>
-            <button>Душа</button>
-            <button>Личность</button>
-            <button>Вселенная</button>
-          </div>
+            <div className='popular-second'>
+              <button>Душа</button>
+              <button>Личность</button>
+              <button>Вселенная</button>
+            </div>
 
-          <div className='popular-three'>
-            <h3>Воин</h3>
-            <p>Борьба за смысл, снижение того, во что есть вера, устойчивость позиций своих и необходимость переход...</p>
+            <div className='popular-three'>
+              <h3>Воин</h3>
+              <p>Борьба за смысл, снижение того, во что есть вера, устойчивость позиций своих и необходимость переход...</p>
+            </div>
+          </div></a>
+          <div className='popularies'>
+            <div className='popular-first'>
+              <img src={sword} alt="" />
+              <div className='small'>
+                <img className='vector' src={vector} alt="" />
+                <p>21 курс</p>
+              </div>
+            </div>
+
+            <div className='popular-second'>
+              <button>Душа</button>
+              <button>Личность</button>
+              <button>Вселенная</button>
+            </div>
+
+            <div className='popular-three'>
+              <h3>Воин</h3>
+              <p>Борьба за смысл, снижение того, во что есть вера, устойчивость позиций своих и необходимость переход...</p>
+            </div>
           </div>
         </div>
-       <a href="/language"><div className='popularies'>
-          <div className='popular-first'>
-            <img src={sword} alt="" />
-            <div className='small'>
-              <img className='vector' src={vector} alt="" />
-              <p>21 курс</p>
-            </div>
-          </div>
 
-          <div className='popular-second'>
-            <button>Душа</button>
-            <button>Личность</button>
-            <button>Вселенная</button>
-          </div>
-
-          <div className='popular-three'>
-            <h3>Воин</h3>
-            <p>Борьба за смысл, снижение того, во что есть вера, устойчивость позиций своих и необходимость переход...</p>
-          </div>
-        </div></a> 
-        <div className='popularies'>
-          <div className='popular-first'>
-            <img src={sword} alt="" />
-            <div className='small'>
-              <img className='vector' src={vector} alt="" />
-              <p>21 курс</p>
-            </div>
-          </div>
-
-          <div className='popular-second'>
-            <button>Душа</button>
-            <button>Личность</button>
-            <button>Вселенная</button>
-          </div>
-
-          <div className='popular-three'>
-            <h3>Воин</h3>
-            <p>Борьба за смысл, снижение того, во что есть вера, устойчивость позиций своих и необходимость переход...</p>
-          </div>
-        </div>
       </div>
-      
-        </div>
-  
+
 
       <div className='flex'>
         <div>
@@ -122,7 +122,7 @@ function Popular() {
 
         <div className='popular-btn'>
           <img src={kub} alt="" />
-         <a href="/hexBanner"><img src={six} alt="" /></a>
+          <a href="/hexBanner"><img src={six} alt="" /></a>
         </div>
       </div>
 

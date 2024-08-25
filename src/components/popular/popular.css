@@ -27,8 +27,10 @@
     font-size: 24px;
     font-weight: 800;
     text-align: left;
-    background: linear-gradient(to right, rgb(243, 109, 255), rgb(135, 69, 254), rgb(23, 186, 229));-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;;
+    background: linear-gradient(to right, rgb(243, 109, 255), rgb(135, 69, 254), rgb(23, 186, 229));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    ;
     /* Градиент */
     -webkit-background-clip: text;
     /* Для старых браузеров */
@@ -187,12 +189,12 @@
     justify-content: space-evenly;
 }
 
-.gradient{
+.gradient {
     width: 1330px;
     height: 380px;
 }
 
-.popularies{
+.popularies {
     box-sizing: border-box;
     border: 1px solid rgb(222, 227, 232);
     border-radius: 20px;
@@ -203,11 +205,11 @@
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-   
+
 }
 
 
-.popular-flex{
+.popular-flex {
     position: absolute;
     top: 90px;
     left: 20px;

@@ -7,7 +7,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+}
+.in p:hover{
+    color:  rgb(142, 53, 255);
 }
 
 .transition p {
@@ -53,6 +55,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: border 0.5s ease, transform 0.5s ease;
+}
+.so1:hover{
+    border: 1.5px solid rgb(142, 53, 255);
 }
 
 .flexx div {
@@ -64,6 +70,7 @@
     justify-content: space-between;
     margin: 50px;
     margin-left: 0px;
+    padding-right: 100px;
     width: 1440px;
 }
 
@@ -77,6 +84,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: border 0.5s ease, transform 0.5s ease;
+
+}
+.tipp:hover{
+    border: 1.5px solid rgb(142, 53, 255);
 }
 
 .popularr-btn {
@@ -92,12 +104,16 @@
     display: flex;
     justify-content: space-evenly;
 }
+.popularr-btn:hover{
+    border: 1px solid rgb(142, 53, 255);
+}
 
 /* --------- */
 
 .alll {
     margin: 0 auto;
     width: 1440px;
+    padding-left: 50px;
 }
 
 /* .course-language {
@@ -239,12 +255,13 @@
     transition: border 0.1s ease, tranform 0.5s ease;
 }
 .sec-star{
+    transition: border 0.4s ease, transform 0.4s ease;
 }
 .sec-star:hover{
     width: 90px;
     height: 32px;
     border-radius: 30px;
-    border: 1px solid rgb(142, 53, 255);
+    border: 2px solid rgb(142, 53, 255);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -366,7 +383,7 @@
 }
 
 .about-proccent {
-    width: 150px;
+    width: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
