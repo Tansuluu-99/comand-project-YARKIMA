@@ -1,7 +1,6 @@
 import React from 'react'
 import './Figure.css'
 import figure from '../../data/figure'
-import Slider from "react-slick";
 
 
 function Figure({image}) {

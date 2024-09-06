@@ -18,7 +18,9 @@ import Trust from "./components/trust/Trust";
 import Katolog from "./pages/Katolog";
 
 import Figure from "./components/Figure/Figure";
-
+import RegistrationP from "./pages/RegistrationP";
+import Register from "./components/registration2/Register";
+import PersonalP from "./pages/PersonalP";
 
 
 
@@ -69,7 +71,19 @@ export const router = createBrowserRouter([
             },{
                 path: "/figuree",
                 element: <Figure/>
-            },  
+            },
+            {
+                path: "/LogIn",
+                element: <RegistrationP/>
+            },
+            {
+                path: "/LogIn2",
+                element: <Register/>
+            },
+            {
+                path: "/personal",
+                element: <PersonalP/>
+            }
         ]
     }
 ])
