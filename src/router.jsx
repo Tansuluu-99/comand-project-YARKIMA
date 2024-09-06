@@ -20,6 +20,9 @@ import Trust from "./components/trust/Trust";
 import Katolog from "./pages/Katolog";
 
 import Figure from "./components/Figure/Figure";
+import RegistrationP from "./pages/RegistrationP";
+import Register from "./components/registration2/Register";
+import PersonalP from "./pages/PersonalP";
 import HexBanner from "./components/hex-banner/HexBanner";
 import Popular from "./components/popular/Popular";
 import Language from "./components/language/language";
@@ -90,6 +93,19 @@ export const router = createBrowserRouter([
             },{
                 path: "/figure",
                 element: <Figure/>
+            },
+            {
+                path: "/LogIn",
+                element: <RegistrationP/>
+            },
+            {
+                path: "/LogIn2",
+                element: <Register/>
+            },
+            {
+                path: "/personal",
+                element: <PersonalP/>
+            }
             },  
             {
                 path: "/hexbanner",
@@ -124,7 +140,7 @@ export const router = createBrowserRouter([
                 element: <AboutRewievs/>
             }, 
             
-            
+           
         ]
     }
 ])

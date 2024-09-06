@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "../../assets/svg/logo.svg"
 import "./header.css"
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -18,7 +19,7 @@ function Header() {
 
        <div className='header-right'>
         <button className='one'>Войти</button>
-        <button className='two'>Зарегистрироваться</button>
+        <Link to="./LogIn"><button className='two'>Зарегистрироваться</button></Link>
 
        </div>
     </div>
