@@ -1,0 +1,274 @@
+ .top-course {
+     width: 1280px;
+     display: flex;
+     flex-direction: column;
+     margin-top: 50px;
+     margin: 0 auto;
+     margin-top: 50px;
+ }
+
+ #choising {
+    width: 176px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+} 
+
+ #choising p {
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: center;
+    text-transform: uppercase;
+    transition:  color 1px ease, transform 1px ease ;
+}
+#choising p:hover{
+    color:rgb(142, 53, 255) ;
+}
+
+
+ .bottom-course {
+     width: 1280px;
+     height: 180px;
+ }
+
+ .left-course {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .left-course img {
+     width: 180px;
+     height: 180px;
+ }
+
+ .left-top-course {
+     width: 1076px;
+     height: 160px;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .top-profile {
+     width: 130px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .top-profile img {
+     width: 40px;
+     height: 40px;
+ }
+
+ .top-profileh3 {
+     color: rgb(25, 26, 38);
+     font-family: Inter Display;
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 20px;
+     letter-spacing: -1%;
+     text-align: left;
+ }
+.center-course{
+    width: 359px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.center-course h1{
+    color: rgb(25, 26, 38);
+font-family: Roboto Flex;
+font-size: 40px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: -1%;
+text-align: left;
+text-transform: uppercase;
+}
+.center-course img{
+    width: 18px;
+    height: 20px;
+}
+.bottom-choise{
+    width: 1076px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-left{
+    width: 359px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-star{
+    width: 65px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-star:hover{
+    width: 65px;
+    height: 32px;
+    border: 2px solid rgb(142, 53, 255);
+    border-radius: 30px;
+}
+.left-star img{
+    width: 16px;
+    height: 15px;
+}
+.left-star p{
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: left;
+    color: black;
+}
+.left-star h3{
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: left;
+    color: gray;
+}
+
+.divs{
+    width: 224px;
+    display: flex;
+}
+.left-div{
+    width: 56px;
+    height: 32px;
+    border-radius: 48px; 
+    background: rgb(245, 248, 250);
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s ease, transform 1s ease;
+}
+.left-div:hover{
+    background-color: rgb(142, 53, 255);
+    color: white;
+}
+.center-div{
+    width: 105px;
+    height: 32px;
+    border-radius: 48px; 
+    background: rgb(245, 248, 250);
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s ease, transform 1s ease;
+
+}
+.center-div:hover{
+    background-color: rgb(142, 53, 255);
+    color: white;
+}
+
+.right-div{
+    width: 47px;
+    height: 32px;
+    border-radius: 48px; 
+    background: rgb(245, 248, 250);
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s ease, transform 1s ease;
+
+}
+.right-div:hover{
+    background-color: rgb(142, 53, 255);
+    color: white;
+}
+
+.about-right{
+    width: 249px;
+    display: flex;
+}
+.pass-course{
+    width: 165px;
+    height: 60px;
+    border-radius: 99999px; 
+    background: radial-gradient(115.00% 168.00% at 50% -52%,rgb(243, 109, 255),rgb(135, 69, 254) 60.5%,rgb(23, 186, 229) 100%);
+    color: rgb(255, 255, 255);
+    font-family: Inter Display;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    text-decoration: none;
+
+}
+.pass-course:hover{
+    background-color: rgb(142, 53, 255);
+    width: 160px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5px;
+    margin-left: 3.5px;
+}
+
+.leif:hover{
+    width: 170px;
+    height: 65px;
+    border: 1px solid rgb(142, 53, 255);
+    border-radius: 99999px;
+    /* margin-top: -10px; */
+}
+.pass-course img{
+    width: 60px;
+    height: 60px;
+}
+#right-img{
+    width: 60px;
+    height: 60px;
+}
+.hover-img:hover{
+    width: 62.5px;
+    height: 62.5px;
+    border-radius: 30px;
+    border: 1px solid rgb(142, 53, 255);
+}

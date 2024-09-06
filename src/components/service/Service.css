@@ -2,8 +2,9 @@
 
 .all-container{
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 200px;
     width: 1328px;
+    margin-bottom: 150px;
 }
 
 .about-hexagon {
@@ -87,3 +88,16 @@
     align-items: center;
     width: 1050px;
 }
+
+/* ------------- */
+/* 
+
+.color-line{
+    width: 1440px;
+    height: 5px;
+    margin: 0 auto;
+    /* background: linear-gradient(to right, rgb(243, 109, 255), rgb(135, 69, 254), rgb(23, 186, 229));-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* color: black;
+
+}  */

@@ -7,8 +7,8 @@ function Header() {
   return (
     <div className='header container'>
      <div className='header-left'>
-       <img src={logo} alt="" />
-       <h1>Yarkima</h1>
+       <a href="/"><img src={logo} alt="" /></a>
+       <a href="/"><h1>Yarkima</h1></a>
 
        </div>
 

@@ -5,7 +5,9 @@ import About from "./pages/About";
 import Main from "./pages/Main";
 import Service from "./pages/Service";
 import Code from "./pages/Code";
-
+import Course from "./pages/course";
+import Cube from "./pages/Cube";
+import AboutCourse from "./pages/AboutCourse";
 
 
 import Banner from "./components/Banner/Banner";
@@ -21,6 +23,14 @@ import Figure from "./components/Figure/Figure";
 import RegistrationP from "./pages/RegistrationP";
 import Register from "./components/registration2/Register";
 import PersonalP from "./pages/PersonalP";
+import HexBanner from "./components/hex-banner/HexBanner";
+import Popular from "./components/popular/Popular";
+import Language from "./components/language/language";
+import CubeLanguage from "./components/cubeLanguage/CubeLanguage";
+import FirstCourse from "./components/firstCourse/FirstCourse";
+import Description from "./components/description/Description";
+import Price from "./components/Price/price";
+import AboutRewievs from "./components/AboutReviews/AboutRewievs";
 
 
 
@@ -34,8 +44,16 @@ export const router = createBrowserRouter([
                 element: <Home/>
             },
             {
+                path: "/AboutCourse",
+                element: <AboutCourse/>
+            },
+            {
                 path: "/about",
                 element: <About/>
+            },
+            {
+                path: "/cube",
+                element: <Cube/>
             },
             {
                 path: "/main",
@@ -48,6 +66,10 @@ export const router = createBrowserRouter([
             {
                 path: "/code",
                 element: <Code/>
+            },
+            {
+                path: "/course",
+                element: <Course/>
             },
             {
                 path: "/banner",
@@ -69,7 +91,7 @@ export const router = createBrowserRouter([
                 path: "/katolog",
                 element: <Katolog/>
             },{
-                path: "/figuree",
+                path: "/figure",
                 element: <Figure/>
             },
             {
@@ -84,6 +106,41 @@ export const router = createBrowserRouter([
                 path: "/personal",
                 element: <PersonalP/>
             }
+            },  
+            {
+                path: "/hexbanner",
+                element: <HexBanner/>
+            }, 
+            {
+                path: "/popular",
+                element: <Popular/>
+            },  
+            {
+                path: "/language",
+                element: <Language/>
+            },  
+            {
+                path: "/cubelanguage",
+                element: <CubeLanguage/>
+            }, 
+            {
+                path: "/firstCourse",
+                element: <FirstCourse/>
+            }, 
+            {
+                path: "/description",
+                element: <Description/>
+            }, 
+            {
+                path: "/price",
+                element: <Price/>
+            }, 
+            {
+                path: "/aboutReviews",
+                element: <AboutRewievs/>
+            }, 
+            
+           
         ]
     }
 ])

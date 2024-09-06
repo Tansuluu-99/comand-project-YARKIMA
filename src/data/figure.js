@@ -40,50 +40,6 @@ const figure  = [
     {
         id: 6,
         image: figure6,
-    },
-    {
-        id: 7,
-        image: figure7,
-    },
-    {
-        id: 8,
-        image: figure8,
-    },
-    {
-        id: 9,
-        image: figure9,
-    },
-    {
-        id: 10,
-        image: figure10,
-    },
-    {
-        id: 11,
-        image: figure11,
-    },
-    {
-        id: 12,
-        image: figure12,
-    },
-    {
-        id: 13,
-        image: figure13,
-    },
-    {
-        id: 14,
-        image: figure14,
-    },
-    {
-        id: 15,
-        image: figure15,
-    },
-    {
-        id: 16,
-        image: figure16,
-    },
-    {
-        id: 17,
-        image: figure17,
     }
 ]
 

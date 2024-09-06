@@ -1,0 +1,80 @@
+.allReviews {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+
+    p {
+        width: 368px;
+        color: rgb(25, 26, 38);
+        font-family: Inter Display;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -1%;
+        text-align: left;
+        margin-left: 20px;
+    }
+}
+
+.someOne {
+    width: 416px;
+    height: 280px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 227, 232);
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+}
+
+.topSomeOne {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.topSomeOne img {
+    width: 64px;
+    height: 64px;
+}
+
+.rightSomeOne {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+
+    h3 {
+        color: rgb(25, 26, 38);
+        font-family: Inter Display;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -1%;
+        text-align: left;
+    }
+
+    img {
+        width: 116px;
+    }
+}
+
+.topRev h1{
+    color: rgb(25, 26, 38);
+    font-family: Roboto Flex;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -1%;
+    text-align: left;
+    text-transform: uppercase;    
+    padding-top: 30px;
+}
+.topRev{
+    width: 1280px;
+    margin: 0 auto;
+}

@@ -1,0 +1,300 @@
+.katalog-banner {
+    margin-bottom: 300px;
+    margin: 0 auto;
+    /* width: 1328px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+.katalog-h1 {
+    padding-top: 50px;
+    color: rgb(25, 26, 38);
+    font-family: Roboto Flex;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: -1%;
+    text-align: left;
+    width: 1328px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.populars {
+    font-family: Roboto Flex;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -1%;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 20px;
+    width: 1328px;
+    margin: 0 auto;
+    padding-top: 70px;
+    background: linear-gradient(to right, rgb(243, 109, 255), rgb(135, 69, 254), rgb(23, 186, 229));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: -330px;
+
+}
+
+.hex-img {
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    display: block;
+}
+
+.hex-img img {
+    width: 320px;
+    height: 320px;
+}
+
+.hex-about {
+    display: flex;
+    flex-direction: column;
+    margin-top: -300px;
+}
+
+.hex-about img {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.hex-about h1 {
+    font-family: Inter Display;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: left;
+    color: horizontal-gradient (115.00% 168.00% at 50% -52%, rgb(243, 109, 255), rgb(135, 69, 254), rgb(23, 186, 229));
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.hex-about p {
+    width: 240px;
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -1%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.bottom-hex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 81px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.bottom-hex img {
+    width: 16px;
+    height: 16px;
+    margin-top: 50px;
+}
+
+#back {
+    width: 1440px;
+    height: 470px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.about-katalog {
+    display: flex;
+    gap: 20px;
+}
+
+.all-katalog {
+    /* width: 1100px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -350px;
+
+}
+
+/* 
+.options{
+    width: 1328px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: #fff;
+}
+
+.option-f{
+    width: 235px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 227, 232);
+    border-radius: 99999px; 
+    background: rgb(255, 255, 255);
+
+}
+.option-s{
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #fff;
+} */
+
+.dropdown-main {
+    position: relative;
+}
+
+.dropdown {
+    position: static;
+    width: 235px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 4px 16px 4px 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* margin: 0px 16px; */
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 227, 232);
+    border-radius: 99999px;
+    background-color: transparent;
+}
+
+.dropdown-text {
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.dropdown-text svg {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.dropdown-popup {
+    width: 235px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 999;
+    top: 60px;
+}
+
+.dropdown-popup button {
+    font-size: 18px;
+    margin: 2px;
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+}
+
+
+
+.dropdown-type {
+    position: relative;
+}
+
+.type {
+    position: static;
+    width: 120px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 4px 16px 4px 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 227, 232);
+    border-radius: 99999px;
+    background-color: transparent;
+}
+
+.dropdown-popup-type {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 999;
+    top: 60px;
+}
+
+.dropdown-popup-type button {
+    font-size: 18px;
+    margin: 2px;
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.modals .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+/* .about-hexagon{
+    padding-top: -100px;
+} */
+
+.modals__first {
+    display: flex;
+}
+
+.hexagon-icon {
+
+    width: 92px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 227, 232);
+    border-radius: 99999px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hexagon-icon img {
+    width: 40px;
+    height: 40px;
+}

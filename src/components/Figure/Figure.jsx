@@ -1,6 +1,11 @@
 import React from 'react'
 import './Figure.css'
 import figure from '../../data/figure'
+import Slider from "react-slick";
+import Marquee from 'react-fast-marquee';
+import figurees from '../../data/figurees';
+import figuress from '../../data/figuress';
+
 
 
 function Figure({image}) {
@@ -20,30 +25,41 @@ function Figure({image}) {
   return (
     <>
       <div className='figures'>
+        <Marquee direction="right">
         {
+
           figure.map((x) => (
             <img className='figure-img' src={x.image} 
             alt="" />
           ))
         }
+        </Marquee>
       </div>
-      {/* <div className='figuress'>
+      <div className='figuress'>
+      <Marquee direction="left">
+
         {
-          figure.map((x) => (
+          figurees.map((x) => (
             <img className='figure-img' src={x.image} 
             alt="" />
           ))
         }
+        </Marquee>
+
       </div>
       <div className='figuresss'>
+      <Marquee direction="right">
+
         {
-          figure.map((x) => (
+          figuress.map((x) => (
 
             <img className='figure-img' src={x.image} 
             alt="" />
           ))
         }
-      </div>  */}
+        </Marquee>
+
+      </div> 
 
       
     </>
@@ -52,26 +68,3 @@ function Figure({image}) {
 
 export default Figure
 
-
-// function Reviews({ description, age, name, image }) {
-
-//   return (
-//     <div className='reviews'>
-//       <h1>Отзывы учеников</h1>
-//       <div className='rew'>
-//       {
-//         review.map((el) => (
-//           <div className='review container'>
-//             <img className='image' src={frame} alt="" />
-//             <div className='review-content'>
-//               <img className='man' src={el.image} alt="" />
-//               <h4>{el.description}</h4>
-//               <h3>{el.name}</h3>
-//               <p>{el.age}</p>
-//             </div>
-//           </div>
-//         ))
-//       }
-//       </div>
-     
-//     </div>
