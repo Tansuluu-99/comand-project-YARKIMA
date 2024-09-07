@@ -1,5 +1,5 @@
 import React from 'react'
-import Language from '../components/language/language'
+import Language from '../components/language/Language'
 
 function course() {
   return (
