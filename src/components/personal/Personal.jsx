@@ -6,7 +6,7 @@ import profile__image from "../../assets/image/figure3.png"
 function Personal() {
     return (
         <div>
-            <section className='personal__flex container'>
+            <section className='personal__flex '>
                 <div className='personal__fixed'>
                     <div className='fixed__button1'>
                     <button>Публичный профиль</button>

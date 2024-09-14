@@ -1,12 +1,16 @@
 .personal__flex {
     display: flex;
     padding-top: 50px;
+    width: 1440px;
+    margin: 0 auto;
+    margin-left: 200px;
 }
 
 .fixed__button1 {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin: 0 auto;
 }
 
 .fixed__button1 button {
@@ -67,6 +71,7 @@ background-color: white;
 .personal__profile {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .personal__profile img {
