@@ -31,6 +31,7 @@ import Description from "./components/description/Description";
 import Price from "./components/Price/Price";
 import Language from "./components/language/Language";
 import AboutRewievs from "./components/AboutReviews/AboutRewievs";
+import Hexagonid from "./components/HexagonId/Hexagonid";
 
 
 
@@ -137,9 +138,17 @@ export const router = createBrowserRouter([
             {
                 path: "/aboutReviews",
                 element: <AboutRewievs/>
+            },  
+
             }, 
             
            
+ main
         ]
-    }
+        
+    },
+    {
+        path: "/hexagonId/:id",
+        element: <Hexagonid/>
+    }, 
 ])

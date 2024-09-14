@@ -1,10 +1,11 @@
 import React from 'react'
 import './Figure.css'
 import figure from '../../data/figure'
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import Marquee from 'react-fast-marquee';
 import figurees from '../../data/figurees';
 import figuress from '../../data/figuress';
+import { Link } from 'react-router-dom';
 
 
 
@@ -29,8 +30,8 @@ function Figure({image}) {
         {
 
           figure.map((x) => (
-            <img className='figure-img' src={x.image} 
-            alt="" />
+           <Link to="/hexagonId/id"><img className='figure-img' src={x.image} 
+           alt="" /> </Link> 
           ))
         }
         </Marquee>
@@ -40,8 +41,8 @@ function Figure({image}) {
 
         {
           figurees.map((x) => (
-            <img className='figure-img' src={x.image} 
-            alt="" />
+            <Link to="/hexagonId/id"><img className='figure-img' src={x.image} 
+            alt="" /></Link>
           ))
         }
         </Marquee>
@@ -53,8 +54,8 @@ function Figure({image}) {
         {
           figuress.map((x) => (
 
-            <img className='figure-img' src={x.image} 
-            alt="" />
+           <Link to={`/hexagonId/id/${x.id}`}> <img className='figure-img' src={x.image} 
+           alt="" /></Link>
           ))
         }
         </Marquee>
