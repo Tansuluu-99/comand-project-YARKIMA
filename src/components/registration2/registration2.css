@@ -1,0 +1,152 @@
+.LogIn {
+    display: flex;
+}
+
+.Log__animation {
+    width: 720px;
+    height: 900px;
+    background: rgb(25, 26, 38);
+}
+
+.Log__input {
+    width: 720px;
+    height: 900px;
+    margin: 20px;
+}
+
+.Log__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Log__image {
+    display: flex;
+    align-items: center;
+}
+
+.Log__header h1 {
+    color: rgb(25, 26, 38);
+    font-family: Roboto Flex;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 100%;
+    text-align: center;
+}
+
+.Log__header button {
+    width: 162px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 227, 232);
+    border-radius: 99999px;
+    background: rgb(255, 255, 255);
+
+    color: rgb(25, 26, 38);
+    font-family: "Inter Display";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Log__text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+    margin-left: 150px;
+    row-gap: 25px;
+}
+
+.Log__text h1 {
+    color: rgb(25, 26, 38);
+    font-family: "Roboto Flex";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -1%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Log__text input {
+    border-radius: 99999px;
+    background: rgb(245, 248, 250);
+    width: 560px;
+    height: 60px;
+
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+.Log__text button {
+    border-radius: 99999px;
+    width: 552px;
+    height: 60px;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter Display;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.logBtn {
+    width: 560px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 227, 232);
+    border-radius: 99999px;
+    background: rgb(255, 255, 255);
+    color: rgb(25, 26, 38) !important;
+}
+
+
+
+.anim {
+    margin-top: 200px;
+    margin-left: 160px;
+    animation: boxing 2s infinite;
+}
+
+@keyframes boxing {
+    0% {
+        margin-top: 200px;
+        margin-left: 160px;
+    }
+
+    25% {
+        margin-top: 200px;
+        margin-left: 300px;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        margin-top: 300px;
+        margin-left: 300px;
+        transform: rotate(90deg);
+    }
+
+    75% {
+        margin-top: 300px;
+        margin-left: 160px;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        margin-top: 200px;
+        margin-left: 160px;
+        transform: rotate(90deg);
+    }
+}

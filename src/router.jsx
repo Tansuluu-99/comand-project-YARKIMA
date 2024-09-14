@@ -20,13 +20,16 @@ import Trust from "./components/trust/Trust";
 import Katolog from "./pages/Katolog";
 
 import Figure from "./components/Figure/Figure";
+import RegistrationP from "./pages/RegistrationP";
+import Register from "./components/registration2/Register";
+import PersonalP from "./pages/PersonalP";
 import HexBanner from "./components/hex-banner/HexBanner";
 import Popular from "./components/popular/Popular";
-import Language from "./components/language/language";
 import CubeLanguage from "./components/cubeLanguage/CubeLanguage";
 import FirstCourse from "./components/firstCourse/FirstCourse";
 import Description from "./components/description/Description";
-import Price from "./components/Price/price";
+import Price from "./components/Price/Price";
+import Language from "./components/language/Language";
 import AboutRewievs from "./components/AboutReviews/AboutRewievs";
 import Hexagonid from "./components/HexagonId/Hexagonid";
 
@@ -91,7 +94,23 @@ export const router = createBrowserRouter([
             },{
                 path: "/figure",
                 element: <Figure/>
-            },  
+            },
+            {
+                path: "/LogIn",
+                element: <RegistrationP/>
+            },
+            {
+                path: "/LogIn2",
+                element: <Register/>
+            },
+            {
+                path: "/personal",
+                element: <PersonalP/>
+            },
+            {
+                path: "/language",
+                element: <Language />
+            },
             {
                 path: "/hexbanner",
                 element: <HexBanner/>
@@ -99,10 +118,6 @@ export const router = createBrowserRouter([
             {
                 path: "/popular",
                 element: <Popular/>
-            },  
-            {
-                path: "/language",
-                element: <Language/>
             },  
             {
                 path: "/cubelanguage",
@@ -124,6 +139,11 @@ export const router = createBrowserRouter([
                 path: "/aboutReviews",
                 element: <AboutRewievs/>
             },  
+
+            }, 
+            
+           
+ main
         ]
         
     },

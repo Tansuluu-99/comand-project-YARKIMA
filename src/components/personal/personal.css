@@ -1,0 +1,266 @@
+.personal__flex {
+    display: flex;
+    padding-top: 50px;
+}
+
+.fixed__button1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fixed__button1 button {
+    width: 290px;
+    height: 48px;
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: center;
+    border-radius: 99999px;
+    background: rgb(245, 248, 250);
+}
+
+
+
+.fixed__button2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fixed__button2 button{
+    width: 290px;
+height: 48px;
+border-radius: 99999px;
+color: rgb(139, 142, 154);
+font-family: Inter Display;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -1%;
+text-align: center;
+background-color: white;
+}
+
+.fixed__button2 button:hover{
+    background: rgb(245, 248, 250);
+}
+
+.personal__fixed p {
+    font-family: Inter Display;
+    background: radial-gradient(115.00% 168.00% at 50% -52%, rgb(243, 109, 255), rgb(135, 69, 254) 60.5%, rgb(98, 23, 229) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: left;
+    margin: 15px;
+}
+
+
+.personal__profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal__profile img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.personal__profile h1 {
+    color: rgb(25, 26, 38);
+    font-family: Roboto Flex;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -1%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.personal__profile p {
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: left;
+}
+
+.personal__icons img {
+    width: 32px;
+    height: 32px;
+}
+
+.personal__icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.personal__text {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 20px;
+}
+
+.personal__profile {
+    width: 950px;
+    height: 168px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 2px solid purple;
+}
+
+.personal__icons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn__buttons {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.btn__buttons button {
+    width: 170px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 227, 232);
+    border-radius: 99999px;
+    background: rgb(255, 255, 255);
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn__gradient {
+    background: radial-gradient(115.00% 168.00% at 50% -52%, rgb(243, 109, 255), rgb(135, 69, 254) 60.5%, rgb(23, 186, 229) 100%) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.personal__profiles {
+    width: 950px;
+    height: 268px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 227, 232);
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+}
+
+
+.personal__word {
+    text-align: center;
+    margin: 25px;
+    margin-left: 150px;
+    display: flex;
+    gap: 15px;
+}
+
+.personal__word button {
+    background-color: white;
+    width: 187px;
+    height: 48px;
+    border-radius: 99999px;
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.personal__word button:hover {
+    border-radius: 99999px;
+    background: rgb(241, 230, 255);
+    color: rgb(142, 53, 255);
+}
+
+
+.first__button {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.first__image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.first__text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.first__text button {
+    height: 32px;
+    padding: 0px 12px 0px 12px;
+    border-radius: 48px;
+    background: rgb(245, 248, 250);
+}
+
+
+.second__text h1 {
+    margin-top: 15px;
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1%;
+    text-align: left;
+}
+
+.second__text p {
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: left;
+}
+
+.personal__third {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.personal__third button {
+    height: 32px;
+    padding: 0px 12px 0px 12px;
+    border-radius: 48px;
+    background: rgb(245, 248, 250);
+    color: rgb(25, 26, 38);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: center;
+}
