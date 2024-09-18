@@ -22,12 +22,15 @@ import Katolog from "./pages/Katolog";
 import Figure from "./components/Figure/Figure";
 import HexBanner from "./components/hex-banner/HexBanner";
 import Popular from "./components/popular/Popular";
-import Language from "./components/language/language";
+import Language from "./components/language/Language";
 import CubeLanguage from "./components/cubeLanguage/CubeLanguage";
 import FirstCourse from "./components/firstCourse/FirstCourse";
 import Description from "./components/description/Description";
-import Price from "./components/Price/price";
+import Price from "./components/Price/Price";
 import AboutRewievs from "./components/AboutReviews/AboutRewievs";
+import Informatoin from "./components/inphormation/Informatoin";
+import Add__info from "./components/add_info/Add__info";
+import OrderHistory from "./components/orderHistory/OrderHistory";
 import Hexagonid from "./components/HexagonId/Hexagonid";
 import Personal from "./components/personal/Personal";
 import Public from "./components/Public/Public";
@@ -92,12 +95,20 @@ export const router = createBrowserRouter([
                 element: <Trust/>
             },
             {
-                path: "/katolog",
+                path: "/catalog",
                 element: <Katolog/>
             },{
                 path: "/figure",
                 element: <Figure/>
-            },  
+            },
+            {
+                path: "/personal",
+                element: <PersonalP/>
+            },
+            {
+                path: "/language",
+                element: <Language />
+            }, 
             {
                 path: "/hexbanner",
                 element: <HexBanner/>
@@ -129,7 +140,29 @@ export const router = createBrowserRouter([
             {
                 path: "/aboutReviews",
                 element: <AboutRewievs/>
-            }, 
+            },
+            {
+                path: "/information",
+                element: <Informatoin/>
+            },
+            {
+                path: "/add__info",
+                element: <Add__info/>
+            },
+            {
+                path: "/OrderHistory",
+                element: <OrderHistory/>
+            }
+        ]
+    },
+    {
+        path: "/LogIn",
+        element: <RegistrationP/>
+    },
+    {
+        path: "/LogIn2",
+        element: <Register/>,
+        children: [
             {
                 path: "/personal",
                 element: <Personal/>
@@ -137,10 +170,7 @@ export const router = createBrowserRouter([
             {
                 path: "/public",
                 element: <Public/>
-            }, 
-            
-            
-            
+            }
         ]
     },
     {
