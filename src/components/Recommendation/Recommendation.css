@@ -34,6 +34,10 @@
     padding-left: 25px;
     padding-top: 15px;
     margin-bottom: 100px;
+    transition: border 0.5s ease, transform 0.5s ease ;
+}
+.about-p:hover{
+    border: 1px solid rgb(142, 53, 255);
 }
 .profile-about{
     display: flex;
@@ -72,6 +76,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+.card-first:hover{
+    color: white;
+    background-color: rgb(142, 53, 255);
 }
 .card-second{
     display: flex;

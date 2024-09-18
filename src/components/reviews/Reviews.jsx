@@ -2,11 +2,16 @@ import React from 'react'
 import "./Reviews.css"
 import frame from "../../assets/svg/frame.svg"
 import review from '../../data/review'
+import setka2 from '../../assets/image/setka2.png'
 
 function Reviews({ description, age, name, image }) {
 
-  return (
-    <div className='reviews'>
+  return ( 
+    <>
+    <div className='setka-rewievs'>
+      <img src={setka2} alt="" />
+    </div>
+      <div className='rewiews'>
       <h1>Отзывы учеников</h1>
       <div className='rew'>
       {
@@ -23,8 +28,9 @@ function Reviews({ description, age, name, image }) {
         ))
       }
       </div>
+      </div>
      
-    </div>
+    </>
   )
 }
 
