@@ -1,0 +1,71 @@
+.order__flex {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.order__info h5 {
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.order__text {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 350px;
+}
+
+.order__texts {
+    display: flex;
+    justify-content: space-between;
+    gap: 170px;
+}
+
+.order__text p {
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: left;
+}
+
+
+.order__account{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    margin-top: 40px;
+}
+
+.order__accounts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.order__account h5{
+    color: rgb(25, 26, 38);
+font-family: Inter Display;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -1%;
+text-align: left;
+}
+
+.order__mini{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

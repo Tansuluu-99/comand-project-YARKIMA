@@ -31,6 +31,9 @@ import Description from "./components/description/Description";
 import Price from "./components/Price/Price";
 import Language from "./components/language/Language";
 import AboutRewievs from "./components/AboutReviews/AboutRewievs";
+import Informatoin from "./components/inphormation/Informatoin";
+import Add__info from "./components/add_info/Add__info";
+import OrderHistory from "./components/orderHistory/OrderHistory";
 
 
 
@@ -88,19 +91,11 @@ export const router = createBrowserRouter([
                 element: <Trust/>
             },
             {
-                path: "/katolog",
+                path: "/catalog",
                 element: <Katolog/>
             },{
                 path: "/figure",
                 element: <Figure/>
-            },
-            {
-                path: "/LogIn",
-                element: <RegistrationP/>
-            },
-            {
-                path: "/LogIn2",
-                element: <Register/>
             },
             {
                 path: "/personal",
@@ -137,9 +132,27 @@ export const router = createBrowserRouter([
             {
                 path: "/aboutReviews",
                 element: <AboutRewievs/>
-            }, 
-            
-           
+            },
+            {
+                path: "/information",
+                element: <Informatoin/>
+            },
+            {
+                path: "/add__info",
+                element: <Add__info/>
+            },
+            {
+                path: "/OrderHistory",
+                element: <OrderHistory/>
+            }
         ]
+    },
+    {
+        path: "/LogIn",
+        element: <RegistrationP/>
+    },
+    {
+        path: "/LogIn2",
+        element: <Register/>
     }
 ])
