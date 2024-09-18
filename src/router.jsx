@@ -20,21 +20,21 @@ import Trust from "./components/trust/Trust";
 import Katolog from "./pages/Katolog";
 
 import Figure from "./components/Figure/Figure";
-import RegistrationP from "./pages/RegistrationP";
-import Register from "./components/registration2/Register";
-import PersonalP from "./pages/PersonalP";
 import HexBanner from "./components/hex-banner/HexBanner";
 import Popular from "./components/popular/Popular";
+import Language from "./components/language/language";
 import CubeLanguage from "./components/cubeLanguage/CubeLanguage";
 import FirstCourse from "./components/firstCourse/FirstCourse";
 import Description from "./components/description/Description";
-import Price from "./components/Price/Price";
-import Language from "./components/language/Language";
+import Price from "./components/Price/price";
 import AboutRewievs from "./components/AboutReviews/AboutRewievs";
 import Informatoin from "./components/inphormation/Informatoin";
 import Add__info from "./components/add_info/Add__info";
 import OrderHistory from "./components/orderHistory/OrderHistory";
-
+import Hexagonid from "./components/HexagonId/Hexagonid";
+import Personal from "./components/personal/Personal";
+import Public from "./components/Public/Public";
+import History from "./pages/History"
 
 
 export const router = createBrowserRouter([
@@ -53,6 +53,10 @@ export const router = createBrowserRouter([
             {
                 path: "/about",
                 element: <About/>
+            },
+            {
+                path: "/history",
+                element: <History/>
             },
             {
                 path: "/cube",
@@ -105,6 +109,7 @@ export const router = createBrowserRouter([
                 path: "/language",
                 element: <Language />
             },
+            },  
             {
                 path: "/hexbanner",
                 element: <HexBanner/>
@@ -112,6 +117,10 @@ export const router = createBrowserRouter([
             {
                 path: "/popular",
                 element: <Popular/>
+            },  
+            {
+                path: "/language",
+                element: <Language/>
             },  
             {
                 path: "/cubelanguage",
@@ -154,5 +163,22 @@ export const router = createBrowserRouter([
     {
         path: "/LogIn2",
         element: <Register/>
+            }, 
+            {
+                path: "/personal",
+                element: <Personal/>
+            }, 
+            {
+                path: "/public",
+                element: <Public/>
+            }, 
+            
+            
+            
+        ]
+    },
+    {
+        path:"/hexagonId/id",
+        element: <Hexagonid/>
     }
 ])

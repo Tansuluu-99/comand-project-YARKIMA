@@ -4,7 +4,7 @@ import CubeLangugae from '../components/cubeLanguage/CubeLanguage'
 function Cube() {
   return (
     <div>
-      <CubeLanguage/>
+      <CubeLangugae/>
     </div>
   )
 }
