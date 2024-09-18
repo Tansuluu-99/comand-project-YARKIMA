@@ -23,7 +23,7 @@
   width: 1200px;
   margin: 0 auto;
   
-  margin-top: 50px;
+  margin-top: -520px;
   margin-bottom: 50px;
 }
 
@@ -71,4 +71,9 @@
   height: 100px;
   object-fit: contain;
   margin-left: 130px;
+}
+.setka-rewievs{
+  margin-left: -200;
+  width: 537px;
+  height: 739px;
 }
