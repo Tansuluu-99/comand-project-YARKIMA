@@ -1,4 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import CourseDetail from './components/CourseDetail/CourseDetail';
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -8,17 +10,11 @@ import Code from "./pages/Code";
 import Course from "./pages/course";
 import Cube from "./pages/Cube";
 import AboutCourse from "./pages/AboutCourse";
-
-
 import Banner from "./components/Banner/Banner";
-
-
 import Recommendation from "./components/Recommendation/Recommendation";
 import Author from "./components/Author/Author"
 import Trust from "./components/trust/Trust";
-
 import Katolog from "./pages/Katolog";
-
 import Figure from "./components/Figure/Figure";
 import HexBanner from "./components/hex-banner/HexBanner";
 import Popular from "./components/popular/Popular";
@@ -32,119 +28,183 @@ import Hexagonid from "./components/HexagonId/Hexagonid";
 import Personal from "./components/personal/Personal";
 import Public from "./components/Public/Public";
 import History from "./pages/History"
-
+import Check from "./components/check/Check";
+import English from "./components/English/English";
+import EnglishE from './pages/EnglishE'
+import Germany from "./pages/Germany";
+import GermanG from "./components/germanG/GermanG";
+import France from "./pages/France";
+import Franch from "./components/Franch/Franch";
+import Chinese from "./components/Chinese/Chinese";
+import China from "./pages/China";
+import Japan from "./pages/Japan";
+import Japanese from "./components/Japanese/Japanese";
 
 export const router = createBrowserRouter([
     {
+
+
         path: "/",
-        element: <Layout/>,
+        element: <Layout />,
         children: [
             {
                 path: "/",
-                element: <Home/>
+                element: <Home />
+            },
+            {
+                path: "/englishE",
+                element: <EnglishE/>
+            },
+            {
+                path: "/germany",
+                element: <Germany/>
             },
             {
                 path: "/AboutCourse",
-                element: <AboutCourse/>
+                element: <AboutCourse />
             },
             {
                 path: "/about",
-                element: <About/>
+                element: <About />
             },
             {
                 path: "/history",
-                element: <History/>
+                element: <History />
             },
             {
                 path: "/cube",
-                element: <Cube/>
+                element: <Cube />
             },
             {
                 path: "/main",
-                element: <Main/>
+                element: <Main />
             },
             {
                 path: "/service",
-                element: <Service/>
+                element: <Service />
             },
             {
                 path: "/code",
-                element: <Code/>
+                element: <Code />
             },
             {
                 path: "/course",
-                element: <Course/>
+                element: <Course />
             },
             {
                 path: "/banner",
-                element: <Banner/>
+                element: <Banner />
             },
             {
                 path: "/recommendation",
-                element: <Recommendation/>
+                element: <Recommendation />
             },
             {
                 path: "/author",
-                element: <Author/>
+                element: <Author />
             },
             {
                 path: "/trust",
-                element: <Trust/>
+                element: <Trust />
             },
             {
                 path: "/katolog",
-                element: <Katolog/>
-            },{
+                element: <Katolog />
+            },
+             {
                 path: "/figure",
-                element: <Figure/>
-            },  
+                element: <Figure />
+            },
             {
                 path: "/hexbanner",
-                element: <HexBanner/>
-            }, 
+                element: <HexBanner />
+            },
             {
                 path: "/popular",
-                element: <Popular/>
-            },  
+                element: <Popular />
+            },
             {
                 path: "/language",
-                element: <Language/>
-            },  
+                element: <Language />,
+
+            },
             {
                 path: "/cubelanguage",
-                element: <CubeLanguage/>
-            }, 
+                element: <CubeLanguage />,
+            },
             {
                 path: "/firstCourse",
-                element: <FirstCourse/>
-            }, 
+                element: <FirstCourse />
+            },
             {
                 path: "/description",
-                element: <Description/>
-            }, 
+                element: <Description />
+            },
             {
                 path: "/price",
-                element: <Price/>
-            }, 
+                element: <Price />
+            },
             {
                 path: "/aboutReviews",
-                element: <AboutRewievs/>
-            }, 
+                element: <AboutRewievs />
+            },
             {
                 path: "/personal",
-                element: <Personal/>
-            }, 
+                element: <Personal />
+            },
             {
                 path: "/public",
-                element: <Public/>
-            }, 
-            
-            
-            
+                element: <Public />
+            },
+            {
+                path: "/check",
+                element: <Check />
+            },
+            {
+                path: "/english",
+                element: <English />
+            },
+            {
+                path: "/germang",
+                element: <GermanG />
+            },
+            {
+                path: "/france",
+                element: <France />
+            },
+            {
+                path: "/franch",
+                element: <Franch />
+            },
+            {
+                path: "/chinese",
+                element: <Chinese />
+            },
+            {
+                path: "/china",
+                element: <China />
+            },
+            {
+                path: "/japanese",
+                element: <Japanese />
+            },
+            {
+                path: "/Japan",
+                element: <Japan />
+            },
+
+
+
         ]
     },
-    {
-        path:"/hexagonId/id",
-        element: <Hexagonid/>
-    }
+    // <Router>
+    //   <Routes>
+    //     <Route path="/cubelanguage" element={<CubeLanguage />} />
+    //     <Route path="/course/:id" element={<CourseDetail />} /> 
+    //   </Routes>
+    // </Router>
+    // // {
+    // //     path:"/hexagonId/id",
+    // //     element: <Hexagonid/>
+    // // }
 ])

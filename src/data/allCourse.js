@@ -18,42 +18,42 @@ const allCourse = [
         flag:russian,
         title: "Русский язык",
         description:"Язык восточнославянской группы славянской ветви индоевропейской языковой семьи, национальный язык русского народа.",
-        profile:profile
+
     },
     {
         id:2,
         flag:england,
         title: "Английский язык",
         description:"Английский язык это международный язык",
-        profile:prof2
+        profile:prof2,
     },
     {
         id:3,
         flag:german,
         title: "Немецкий язык",
         description:"Немецкий язык является самым распространённым языком в Западной Европе",
-        profile:prof3
+        profile:prof3,
     },
     {
         id:4,
         flag:france,
         title: "Французский язык",
         description:"Французский язык считается романским языком",
-        profile:prof4
+        profile:prof4,
     },
     {
         id:5,
         flag:china,
         title: "Китайский язык",
         description:"Китайский язык один сложнейших,  распространённых языков",
-        profile:prof5
+        profile:prof5,
     },
     {
         id:6,
         flag:japon,
         title: "Японский язык",
         description:"Язык японцев и фактически государственный язык Японии, со спорны...",
-        profile:prof6
+        profile:prof6,
     }
 ]
 export default allCourse

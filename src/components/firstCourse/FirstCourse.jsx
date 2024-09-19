@@ -22,7 +22,6 @@ function FirstCourse() {
             <div className='left-top-course'>
                 <div className='top-profile'>
                     <img src={prof7} alt="" />
-                    <h3>gingerbread</h3>
                 </div>
                 <div className='center-course'>
                     <h1>Русский язык</h1>

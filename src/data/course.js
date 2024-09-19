@@ -27,6 +27,7 @@ export const course = [
         butt1:"Общение" ,
         butt2: "Языки",
         butt3:"Развитие" ,
+        page:'/russian'
     },
     {
         id:2,
@@ -41,6 +42,8 @@ export const course = [
         butt1:"Общение" ,
         butt2: "Языки",
         butt3:"Развитие" ,
+        page:'/english'
+
     },
     {
         id:3,
@@ -55,6 +58,8 @@ export const course = [
         butt1:"Общение" ,
         butt2: "Языки",
         butt3:"Развитие" ,
+        page:''
+
     },
     {
         id:4,
@@ -69,6 +74,8 @@ export const course = [
         butt1:"Общение" ,
         butt2: "Языки",
         butt3:"Развитие" ,
+        page:''
+
     },
     {
         id:5,
@@ -83,6 +90,8 @@ export const course = [
         butt1:"Общение" ,
         butt2: "Языки",
         butt3:"Развитие" ,
+        page:''
+
     },
     {
         id:6,
@@ -97,6 +106,8 @@ export const course = [
         butt1:"Общение" ,
         butt2: "Языки",
         butt3:"Развитие" ,
+        page:''
+
     },
 
 ]

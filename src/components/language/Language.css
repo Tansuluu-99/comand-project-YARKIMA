@@ -233,7 +233,6 @@
 .main-figure {
     width: 477px;
     height: 477px;
-    /* margin-bottom: 600px; */
     position: relative;
     display: flex;
 }
@@ -243,13 +242,13 @@
     height: 450px;
 }
 
-.polygon {
+/* .polygon {
     width: 390px;
     /* display: flex; */
     /* flex-direction: column; */
     position: absolute;
     padding-top: -700px;
-}
+/* } */ */
 
 .polygon-img {
     width: 80px;
