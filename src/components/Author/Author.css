@@ -35,6 +35,10 @@
     flex-direction: column;
     padding-top: 20px;
     padding-left: 25px;
+    transition: border 0.5s ease, transform 0.5s ease ;
+}
+.author-p:hover{
+    border: 1px solid rgb(142, 53, 255);
 }
 .about-author{
     width: 191px;
@@ -80,6 +84,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+.d-first:hover{
+    color: white;
+    background-color: rgb(142, 53, 255);
 }
 .d-second{
     width: 63px;
@@ -97,4 +106,9 @@
     display: flex;
     justify-content: center;
     align-items: center;  
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+.d-second:hover{
+    color: white;
+    background-color: rgb(142, 53, 255);
 }

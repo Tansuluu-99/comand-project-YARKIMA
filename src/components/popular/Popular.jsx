@@ -114,7 +114,7 @@ function Popular() {
 
         <div className='popular-btn'>
           <img src={kub} alt="" />
-          <a href="/hexBanner"><img src={six} alt="" /></a>
+          <a href="/service"><img src={six} alt="" /></a>
         </div>
       </div>
 
