@@ -8,177 +8,172 @@ import Code from "./pages/Code";
 import Course from "./pages/course";
 import Cube from "./pages/Cube";
 import AboutCourse from "./pages/AboutCourse";
-
-
 import Banner from "./components/Banner/Banner";
-
-
 import Recommendation from "./components/Recommendation/Recommendation";
 import Author from "./components/Author/Author"
 import Trust from "./components/trust/Trust";
-
 import Katolog from "./pages/Katolog";
-
 import Figure from "./components/Figure/Figure";
 import HexBanner from "./components/hex-banner/HexBanner";
 import Popular from "./components/popular/Popular";
-import Language from "./components/language/language";
 import CubeLanguage from "./components/cubeLanguage/CubeLanguage";
 import FirstCourse from "./components/firstCourse/FirstCourse";
 import Description from "./components/description/Description";
-import Price from "./components/Price/price";
 import AboutRewievs from "./components/AboutReviews/AboutRewievs";
 import Informatoin from "./components/inphormation/Informatoin";
 import Add__info from "./components/add_info/Add__info";
-import OrderHistory from "./components/orderHistory/OrderHistory";
 import Hexagonid from "./components/HexagonId/Hexagonid";
 import Personal from "./components/personal/Personal";
 import Public from "./components/Public/Public";
 import History from "./pages/History"
+import Price from "./components/Price/Price";
+import Language from "./components/language/Language";
+import RegistrationP from "./components/registration/Registration"
+import Register from "./components/registration2/Register"
+import Registration from "./components/registration3/Registration";
+import RegistrationW from "./components/registration4/Registration";
 
 
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <Layout/>,
+        element: <Layout />,
         children: [
             {
                 path: "/",
-                element: <Home/>
+                element: <Home />
             },
             {
                 path: "/AboutCourse",
-                element: <AboutCourse/>
+                element: <AboutCourse />
             },
             {
                 path: "/about",
-                element: <About/>
+                element: <About />
             },
             {
                 path: "/history",
-                element: <History/>
+                element: <History />
             },
             {
                 path: "/cube",
-                element: <Cube/>
+                element: <Cube />
             },
             {
                 path: "/main",
-                element: <Main/>
+                element: <Main />
             },
             {
                 path: "/service",
-                element: <Service/>
+                element: <Service />
             },
             {
                 path: "/code",
-                element: <Code/>
+                element: <Code />
             },
             {
                 path: "/course",
-                element: <Course/>
+                element: <Course />
             },
             {
                 path: "/banner",
-                element: <Banner/>
+                element: <Banner />
             },
             {
                 path: "/recommendation",
-                element: <Recommendation/>
+                element: <Recommendation />
             },
             {
                 path: "/author",
-                element: <Author/>
+                element: <Author />
             },
             {
                 path: "/trust",
-                element: <Trust/>
+                element: <Trust />
             },
             {
                 path: "/catalog",
-                element: <Katolog/>
-            },{
+                element: <Katolog />
+            }, {
                 path: "/figure",
-                element: <Figure/>
+                element: <Figure />
             },
             {
                 path: "/personal",
-                element: <PersonalP/>
+                element: <Personal />
             },
             {
                 path: "/language",
                 element: <Language />
             },
-            },  
             {
                 path: "/hexbanner",
-                element: <HexBanner/>
-            }, 
+                element: <HexBanner />
+            },
             {
                 path: "/popular",
-                element: <Popular/>
-            },  
+                element: <Popular />
+            },
             {
                 path: "/language",
-                element: <Language/>
-            },  
+                element: <Language />
+            },
             {
                 path: "/cubelanguage",
-                element: <CubeLanguage/>
-            }, 
+                element: <CubeLanguage />
+            },
             {
                 path: "/firstCourse",
-                element: <FirstCourse/>
-            }, 
+                element: <FirstCourse />
+            },
             {
                 path: "/description",
-                element: <Description/>
-            }, 
+                element: <Description />
+            },
             {
                 path: "/price",
-                element: <Price/>
-            }, 
+                element: <Price />
+            },
             {
                 path: "/aboutReviews",
-                element: <AboutRewievs/>
+                element: <AboutRewievs />
             },
             {
                 path: "/information",
-                element: <Informatoin/>
+                element: <Informatoin />
             },
             {
                 path: "/add__info",
-                element: <Add__info/>
+                element: <Add__info />
             },
             {
-                path: "/OrderHistory",
-                element: <OrderHistory/>
-            }
+                path: "/personal",
+                element: <Personal />
+            },
+            {
+                path: "/public",
+                element: <Public />
+            },
         ]
     },
     {
         path: "/LogIn",
-        element: <RegistrationP/>
+        element: <RegistrationP />
     },
     {
         path: "/LogIn2",
-        element: <Register/>
-            }, 
-            {
-                path: "/personal",
-                element: <Personal/>
-            }, 
-            {
-                path: "/public",
-                element: <Public/>
-            }, 
-            
-            
-            
-        ]
+        element: <Register />
     },
     {
-        path:"/hexagonId/id",
-        element: <Hexagonid/>
-    }
+        path: "/LogIn3",
+        element: <Registration/>
+    },
+    {
+        path: "/LogIn4",
+        element: <RegistrationW/>
+    },
+    {
+        path: "/hexagonId/id",
+        element: <Hexagonid />
+    },
 ])

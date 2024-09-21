@@ -4,7 +4,7 @@ import setka from '../../assets/image/setka.png'
 
 
 
-function price() {
+function Price() {
     return (
         <>
             <section className='wayToStudy'>
@@ -26,4 +26,4 @@ function price() {
     )
 }
 
-export default price
+export default Price

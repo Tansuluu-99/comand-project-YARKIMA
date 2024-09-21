@@ -2,12 +2,17 @@ import React from 'react'
 import "./information.css"
 import personal__man from "../../assets/image/personal-man.png"
 import arrow from "../../assets/svg/arrow.svg"
+import { Link } from 'react-router-dom'
 
 function Informatoin() {
     return (
         <section className='info__flex container'>
             <div className='info__profile'>
-                <h5>ПУБЛИЧНЫЙ ПРОВИЛЬ / НАСТРОЙКИ</h5>
+                <div className='top-profile'>
+                    <p>Публичный профиль</p>
+                    <p>/</p>
+                    <p>История заказов</p>
+                </div>
                 <div className='profile__first'>
                     <img src={arrow} alt="" />
                     <h2>Основная информация</h2>
@@ -40,11 +45,11 @@ function Informatoin() {
             </div>
             <div className='info__ul'>
                 <button>Основная информация</button>
-                <button>Дополнительная информация</button>
+                <Link to="/add__info" > <button>Дополнительная информация</button></Link>
                 <button>Социальные сети</button>
                 <button>Идентификатор пользователя</button>
                 <button>Лицевой счет</button>
-                <button>История заказов</button>
+                <Link to="/publi" ><button>История заказов</button></Link>
                 <button>Пароль</button>
                 <button className='info__red'>Выйти</button>
             </div>

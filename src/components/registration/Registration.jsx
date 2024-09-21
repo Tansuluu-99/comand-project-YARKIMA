@@ -21,19 +21,20 @@ function Registration() {
                 </div>
                 <div className='Log__input'>
                     <div className='Log__header'>
-                        <div className='Log__image'>
+                        <a href='/'><div className='Log__image'>
                             <img src={logo} alt="" />
                             <h1>Yarkima</h1>
-                        </div>
-                        <Link to="./LogIn2"><button>РЕГИСТРАЦИЯ</button></Link>
-                        
+                        </div> </a>
+
+                        <button>РЕГИСТРАЦИЯ</button>
+
                     </div>
 
                     <div className='Log__text'>
-                        <h1>Войти</h1>
+                    <h1>Войти</h1>
                         <input type="text" placeholder='Телефон или email' />
                         <input type="password" placeholder='Пароль' />
-                        <button className='two'>Войти</button>
+                        <a href='/LogIn2'><button className='two'>Войти</button></a>
                         <button className='logBtn'> <img src={tele} alt="" />Войти через телеграм</button>
                     </div>
                 </div>

@@ -36,7 +36,7 @@
     padding-top: 70px;
     background: linear-gradient(to right, rgb(243, 109, 255), rgb(135, 69, 254), rgb(23, 186, 229));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
     margin-bottom: -330px;
 
 }

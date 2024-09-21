@@ -16,7 +16,7 @@ function Reviews({ description, age, name, image }) {
       <div className='rew'>
       {
         review.map((el) => (
-          <div className='review container'>
+          <div key={el.id} className='review container'>
             <img className='image' src={frame} alt="" />
             <div className='review-content'>
               <img className='man' src={el.image} alt="" />

@@ -33,21 +33,15 @@ function Popular() {
             <div className='popular-first'>
               <img src={sword} alt="" />
               <div className='small'>
-
                 <img className='vector' src={vector} alt="" />
-
-               
-
                 <p>21 курс</p>
               </div>
             </div>
-
             <div className='popular-second'>
               <button>Душа</button>
               <button>Личность</button>
               <button>Вселенная</button>
             </div>
-
             <div className='popular-three'>
               <h3>Воин</h3>
               <p>Борьба за смысл, снижение того, во что есть вера, устойчивость позиций своих и необходимость переход...</p>
@@ -55,22 +49,21 @@ function Popular() {
           </div>
           <a href="/language"><div className='popularies'>
             <div className='popular-first'>
-              <img  src={sword} alt="" />
+              <img src={sword} alt="" />
               <div className='small'>
                 <img className='vector' src={vector} alt="" />
-                <p>21 курс</p>
+                <p>32 курса</p>
               </div>
             </div>
 
             <div className='popular-second'>
-              <button>Душа</button>
-              <button>Личность</button>
-              <button>Вселенная</button>
+              <a href='/language'><button>Языки</button></a>
+              <button>Общение</button>
             </div>
 
             <div className='popular-three'>
-              <h3>Воин</h3>
-              <p>Борьба за смысл, снижение того, во что есть вера, устойчивость позиций своих и необходимость переход...</p>
+              <h3>Языки</h3>
+              <p>Спонтанные озарения, инсайты, структурирование информации, потен...</p>
             </div>
           </div></a>
           <div className='popularies'>
@@ -78,19 +71,19 @@ function Popular() {
               <img src={sword} alt="" />
               <div className='small'>
                 <img className='vector' src={vector} alt="" />
-                <p>21 курс</p>
+                <p>12 курсов</p>
               </div>
             </div>
 
             <div className='popular-second'>
               <button>Душа</button>
               <button>Личность</button>
-              <button>Вселенная</button>
+              <button>Характер</button>
             </div>
 
             <div className='popular-three'>
-              <h3>Воин</h3>
-              <p>Борьба за смысл, снижение того, во что есть вера, устойчивость позиций своих и необходимость переход...</p>
+              <h3>Провокация</h3>
+              <p>Провокация людей для усиления их эмоциональных событий. В случае, если...</p>
             </div>
           </div>
         </div>
