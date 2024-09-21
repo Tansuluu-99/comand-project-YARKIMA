@@ -1,0 +1,30 @@
+.Log__text p {
+    color: rgb(139, 142, 154);
+    font-family: Inter Display;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -1%;
+    text-align: center;
+    width: 250px;
+    margin-top: -50px;
+    margin-left: 150px;
+}
+
+.kvadrat {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.kvadrat__input {
+    width: 86.67px !important;
+    height: 96px !important;
+    border-radius: 10px !important;
+    text-align: center !important;
+
+    color: rgb(0, 0, 0) !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    line-height: 28px !important;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import "./personal.css"
 import personal__man from "../../assets/image/personal-man.png"
 import profile__image from "../../assets/image/figure3.png"
+import { Link } from 'react-router-dom'
 
 function Personal() {
     return (
@@ -58,7 +59,7 @@ function Personal() {
 
 
                     <div className='personal__word'>
-                        <button>ИНФОРМАЦИЯ</button>
+                        <Link to="/information"><button>ИНФОРМАЦИЯ</button></Link>
                         <button>ИЗБРАННЫЕ КУРСЫ</button>
                         <button>МОИ КУРСЫ</button>
                     </div>

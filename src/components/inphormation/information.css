@@ -7,19 +7,25 @@
 .info__profile h5 {
     color: rgb(139, 142, 154);
     font-family: Inter Display;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 20px;
     letter-spacing: -1%;
     text-align: left;
     text-transform: uppercase;
 }
+
+.info__profile h5:hover {
+    color: rgb(142, 53, 255);
+}
+
 .profile__first {
     margin-top: 15px;
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 .profile__first h2 {
     color: rgb(25, 26, 38);
     font-family: Roboto Flex;
@@ -126,7 +132,7 @@
     color: rgb(25, 26, 38);
 }
 
-.info__red{
+.info__red {
     color: red !important;
 }
 

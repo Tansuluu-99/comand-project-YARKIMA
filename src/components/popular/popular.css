@@ -23,6 +23,7 @@
     box-sizing: border-box;
     border-radius: 0px 0px 32px 32px;
     position: relative;
+    /* -webkit-text-fill-color: none; */
 
 }
 
@@ -35,8 +36,6 @@
     text-align: left;
     background: linear-gradient(to right, rgb(243, 109, 255), rgb(135, 69, 254), rgb(23, 186, 229));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    ;
     /* Градиент */
     -webkit-background-clip: text;
     /* Для старых браузеров */

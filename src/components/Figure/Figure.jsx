@@ -9,60 +9,60 @@ import { Link } from 'react-router-dom';
 
 
 
-function Figure({image}) {
+function Figure({ image }) {
 
-    const figures = {
-      dots: true,
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 2000,
-      cssEase: "linear"
-    };
+  const figures = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear"
+  };
 
-    
+
   return (
     <>
       <div className='figures'>
         <Marquee direction="right">
-        {
+          {
 
-          figure.map((x) => (
-           <Link to="/hexagonId/id"><img className='figure-img' src={x.image} 
-           alt="" /> </Link> 
-          ))
-        }
+            figure.map((x) => (
+              <Link key={x.id} to="/hexagonId/id"><img className='figure-img' src={x.image}
+                alt="" /> </Link>
+            ))
+          }
         </Marquee>
       </div>
       <div className='figuress'>
-      <Marquee direction="left">
+        <Marquee direction="left">
 
-        {
-          figurees.map((x) => (
-            <Link to="/hexagonId/id"><img className='figure-img' src={x.image} 
-            alt="" /></Link>
-          ))
-        }
+          {
+            figurees.map((x) => (
+              <Link key={x.id} to="/hexagonId/id"><img className='figure-img' src={x.image}
+                alt="" /></Link>
+            ))
+          }
         </Marquee>
 
       </div>
       <div className='figuresss'>
-      <Marquee direction="right">
+        <Marquee direction="right">
 
-        {
-          figuress.map((x) => (
+          {
+            figuress.map((x) => (
 
-           <Link to={`/hexagonId/id/${x.id}`}> <img className='figure-img' src={x.image} 
-           alt="" /></Link>
-          ))
-        }
+              <Link key={x.id} to={`/hexagonId/id/${x.id}`}> <img className='figure-img' src={x.image}
+                alt="" /></Link>
+            ))
+          }
         </Marquee>
 
-      </div> 
+      </div>
 
-      
+
     </>
   )
 }

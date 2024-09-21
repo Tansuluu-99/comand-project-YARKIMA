@@ -23,7 +23,7 @@ function Register() {
                             <img src={logo} alt="" />
                             <h1>Yarkima</h1>
                         </div>
-                        <button>РЕГИСТРАЦИЯ</button>
+                        <button>ВОЙТИ</button>
                         
                     </div>
 
@@ -31,7 +31,8 @@ function Register() {
                         <h1>РЕГИСТРАЦИЯ</h1>
                         <input type="text" placeholder='Имя' />
                         <input type="text" placeholder='Телефон или email' />
-                        <button className='two'>ПРОДОЛЖИТЬ</button>
+                        <a href='LogIn3'><button className='two'>ПРОДОЛЖИТЬ</button></a>
+                        
                         
                         <button className='logBtn'> <img src={tele} alt="" />Войти через телеграм</button>
                     </div>
