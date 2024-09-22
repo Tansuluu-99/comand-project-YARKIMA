@@ -1,7 +1,4 @@
-
-
-
-.banner{
+.banner {
     width: 1408px;
     height: 720px;
     margin: 0 auto;
@@ -9,7 +6,8 @@
     border-radius: 50px;
     margin-top: 30px;
 }
-.banner h1{
+
+.banner h1 {
     color: rgb(255, 255, 255);
     font-family: Roboto Flex;
     font-size: 60px;
@@ -18,14 +16,15 @@
     letter-spacing: -1%;
     text-align: center;
     text-transform: uppercase;
-    width: 929px;    
+    width: 929px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     padding-top: 100px;
 }
-.banner p{
+
+.banner p {
     color: rgb(255, 255, 255);
     font-family: Inter Display;
     font-size: 18px;
@@ -33,11 +32,12 @@
     line-height: 24px;
     letter-spacing: -1%;
     text-align: center;
-    width: 657px;    
+    width: 657px;
     margin: 0 auto;
 }
-.banner button{
-    width: 264px;
+
+.banner button {
+    width: 266px;
     height: 66px;
     margin: 0 auto;
     display: flex;
@@ -46,7 +46,7 @@
     margin-top: 50px;
     border: 1px solid rgb(255, 255, 255, 0.2);
     border-radius: 99999px;
-    background: radial-gradient(115.00% 168.00% at 50% -52%,rgb(243, 109, 255),rgb(135, 69, 254) 60.5%,rgb(23, 186, 229) 100%);
+    background: radial-gradient(115.00% 168.00% at 50% -52%, rgb(243, 109, 255), rgb(135, 69, 254) 60.5%, rgb(23, 186, 229) 100%);
     color: rgb(255, 255, 255);
     font-family: Inter Display;
     font-size: 18px;
@@ -56,34 +56,5 @@
     text-align: center;
     text-transform: uppercase;
     border: none;
+  
 }
-
-/* .img {
-	width: 40px;
-	height: 40px;
-	background: white;
-	position: relative;
-    object-fit: cover;
-}
-.img:before {
-	content: "";
-	position: absolute;
-	top: -25px; 
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 25px solid white;
-}
-.img:after {
-	content: "";
-	position: absolute;
-	bottom: -25px; 
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-top: 25px solid white;
-} */

@@ -26,6 +26,11 @@
     border: 1px solid rgb(222, 227, 232);
     border-radius: 20px;
     background: rgb(255, 255, 255);
+    transition: border 0.7s ease, transform 0.7s ease;
+}
+.someOne:hover{
+    border: 2px solid rgb(142, 53, 255);
+
 }
 
 .topSomeOne {

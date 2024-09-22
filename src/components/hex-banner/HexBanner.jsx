@@ -18,9 +18,9 @@ function HexBanner() {
   const [indexType, setIndexType] = useState();
   const ref = useOutSideClick(() => setPopup(fals))
   const refIndex = useOutSideClick(() => setPopupIndex(false))
-  const filter = ["Самые популярные", "Самые дешевые"];
+  const filter = ["Самые популярные"];
 
-  const type = ["Тип", "Тип-1"];
+  const type = ["Тип", "Тип-2"];
 
   const handleIndex = (event) => {
     const selectIndex = Number(event.currentTarget.dataset.index);
@@ -53,11 +53,13 @@ function HexBanner() {
 
       <div className='katalog-banner'>
         <div className='all-katalog'>
+
           <div className='about-katalog'>
             {
               hexagons.map((x) => (
                 <div key={x.id} className='hex-img'>
                   <img src={hex2} alt="" />
+                  <a href="/cubelanguage">
                   <div className='hex-about'>
                     <img src={x.image} alt="" />
                     <h1>{x.title}</h1>
@@ -67,6 +69,7 @@ function HexBanner() {
                       <p>{x.course}</p>
                     </div>
                   </div>
+            </a>
                 </div>
 
               ))

@@ -27,7 +27,7 @@ function Figure({image}) {
   return (
     <>
     <div className='setka2'>
-      <img src={setka2} alt="" />
+      <img src={setka2} alt="" /> 
     </div>
     <div className='alll-figures'>
 

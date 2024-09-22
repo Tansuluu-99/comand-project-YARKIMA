@@ -85,6 +85,10 @@
     letter-spacing: -1%;
     text-align: left;
 }
+.profile__third button:hover{
+    background-color: rgb(142, 53, 255);
+    color: white;
+}
 
 .profile__third input {
     border-radius: 99999px;
@@ -92,6 +96,9 @@
     width: 674px;
     height: 60px;
     padding: 0px 32px 0px 32px;
+}
+.profile__third button{
+    transition: background-color 0.5s ease, transform 0.5s ease;
 }
 
 

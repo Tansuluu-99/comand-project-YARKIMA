@@ -215,11 +215,26 @@
     justify-content: center;
     display: flex;
     justify-content: space-evenly;
+    transition: border 0.5 ease, tranform 0.5s ease;
 }
 .popular-btn:hover{
-    border: 2px solid rgb(142, 53, 255);
+    border: 0.5px solid rgb(142, 53, 255);
 }
+.dropdown:hover{
+    border: 2px solid rgb(142, 53, 255);
+    border-radius: 99999px;
+}
+/* .dropdown-type:hover{
+    border: 2px solid rgb(142, 53, 255);
+    border-radius: 999999px;
+} */
 
+.type{
+    transition: border 0.7s ease, transform 0.5s ease;
+}
+.dropdown{
+    transition: border 0.7s ease, transform 0.5s ease;
+}
 .gradient {
     width: 1330px;
     height: 380px;

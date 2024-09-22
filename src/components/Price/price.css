@@ -73,7 +73,7 @@
 }
 
 .centerWay {
-    width: 243px;
+    width: 260px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,8 +143,11 @@
     align-items: center;
     margin: 0 auto;
     margin-top: 30px;
+    transition: background-color 0.7s ease, transform 0.7 ease ;
 }
 
 .wayRight button:hover {
-    border: 1px solid rgb(135, 69, 254);
+    width: 200px;
+    color: white;
+    background: radial-gradient(115.00% 168.00% at 50% -52%, rgb(243, 109, 255), rgb(135, 69, 254) 60.5%, rgb(23, 186, 229) 100%);
 }
