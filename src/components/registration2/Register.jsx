@@ -3,6 +3,7 @@ import "./registration2.css"
 import box from "../../assets/svg/box.svg"
 import logo from "../../assets/svg/logo.svg"
 import tele from "../../assets/svg/telegram.svg"
+import { Link } from 'react-router-dom'
 
 function Register() {
   return (
@@ -23,7 +24,7 @@ function Register() {
                             <img src={logo} alt="" />
                             <h1>Yarkima</h1>
                         </div>
-                        <button>РЕГИСТРАЦИЯ</button>
+                        <a href="LogIn"><button>ВОЙТИ</button></a>
                         
                     </div>
 
@@ -31,7 +32,8 @@ function Register() {
                         <h1>РЕГИСТРАЦИЯ</h1>
                         <input type="text" placeholder='Имя' />
                         <input type="text" placeholder='Телефон или email' />
-                        <button className='two'>ПРОДОЛЖИТЬ</button>
+                        <a href='LogIn3'><button className='two'>ПРОДОЛЖИТЬ</button></a>
+                        
                         
                         <button className='logBtn'> <img src={tele} alt="" />Войти через телеграм</button>
                     </div>

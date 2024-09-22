@@ -9,7 +9,6 @@ import skillbox from '../../assets/image/skillbox.png'
 function Trust() {
   return (
     <>
-    
         <section className='site'>
           <h1>Нам доверяют</h1>
           <div className='all-figure'>
