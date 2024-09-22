@@ -135,39 +135,6 @@ function Public() {
 
         </>
     )
-        <div className='payment'>
-            <div className='pay-lang'>
-                <img src={japon} alt="" />
-                <h3> Японский язык</h3>
-            </div>
-            <div className='profile-lang'>
-                <img src={newprof} alt="" />
-                <h3>gingerbread</h3>
-            </div>
-            <h4>08.03.2024</h4>
-            <p> Карта</p>
-            <h2>499 ₽</h2>
-        </div>
-
-        <div className='more'>показать еще</div>
-    </section>
-    </div>
-
-    <div className='right-choice'>
-        <p>Основная информация</p>
-        <p>Дополнительная информация</p>
-        <p>Социальные сети</p>
-        <p>Идентификатор пользователя</p>
-        <p>Лицевой счет</p>
-        <div className='history-order'>История заказов</div>
-        <p>Пароль</p>
-        <h2>Выйти</h2>
-    </div>
-    </div>
-
-
-    </>
-  )
 }
 
 export default Public

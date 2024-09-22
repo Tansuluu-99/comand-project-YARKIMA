@@ -21,7 +21,7 @@ function Registration() {
                         <img src={logo} alt="" />
                         <h1>Yarkima</h1>
                     </div>
-                    <button>ВОЙТИ</button>
+                    <a href="LogIn"><button>ВОЙТИ</button></a>
 
                 </div>
 

@@ -42,6 +42,8 @@ function Figure({ image }) {
           }
         </Marquee>
       </div>
+
+
       <div className='figuress'>
         <Marquee direction="left">
 
@@ -54,28 +56,22 @@ function Figure({ image }) {
         </Marquee>
 
       </div>
+
+
       <div className='figuresss'>
         <Marquee direction="right">
 
           {
             figuress.map((x) => (
 
-              <Link key={x.id} to={`/hexagonId/id/${x.id}`}> <img className='figure-img' src={x.image}
+              <Link key={x.id} to={"/hexagonId/id"}> <img className='figure-img' src={x.image}
                 alt="" /></Link>
             ))
           }
         </Marquee>
 
       </div>
-
-           <Link to="/hexagonId/id"> <img className='figure-img' src={x.image} 
-           alt="" /></Link>
-          ))
-        }
-        </Marquee>
-
       </div> 
-    </div>
 
     </>
   )
