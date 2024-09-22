@@ -15,7 +15,7 @@ function Price() {
                 <div className='wayRight'>
                     <h1>Месячный план</h1>
                     <div className='centerWay'>
-                        <h2>299 ₽</h2>
+                        <h2>1500 ₽</h2>
                         <p>/ месяц</p>
                     </div>
                     <p id='wayP'>Автоматическое выставление счетов. Подписку можно отменить в любое время.</p>

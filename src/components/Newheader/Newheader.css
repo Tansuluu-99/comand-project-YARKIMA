@@ -1,0 +1,48 @@
+.newheader-all{
+    margin-top: 400px;
+}
+
+.newheader {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.newheader h2{
+    color: rgb(25, 26, 38);
+    font-size: 24px;
+}
+
+.left-new {
+    width: 147px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 48px;
+    height: 48px;
+}
+
+.bottom-words {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.bottom-words h1 {
+    color: rgb(25, 26, 38);
+    font-family: Roboto Flex;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -1%;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 4px solid black;
+}

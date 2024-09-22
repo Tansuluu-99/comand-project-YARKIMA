@@ -15,6 +15,10 @@
     border-radius: 20px;
     background: rgb(255, 255, 255);
     margin: 0 auto;
+    transition: border 0.7s ease, transform 0.7s ease;
+}
+.first-description:hover{
+    border: 2px solid rgb(142, 53, 255);
 }
 
 .second-description {
@@ -24,6 +28,10 @@
     border: 1px solid rgb(222, 227, 232);
     border-radius: 20px;
     background: rgb(255, 255, 255);
+    transition: border 0.7s ease, transform 0.7s ease;
+}
+.second-description:hover{
+    border: 2px solid rgb(142, 53, 255);
 }
 
 .top-firs†-description {
@@ -153,7 +161,10 @@ border: 1px solid rgb(222, 227, 232);
 background: rgb(255, 255, 255);
 padding-left: 20px;
 margin-top: 30px;
-
+transition: border 0.7s ease, transform 0.7s ease;
+}
+.about-bottom-course:hover{
+    border: 2px solid rgb(142, 53, 255);
 }
 
 .about-bottom-course h1 {
@@ -274,6 +285,11 @@ margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 1s ease, transform 1s ease;
+}
+.again-divf:hover{
+    background-color: rgb(142, 53, 255);
+    color: white;
 }
 .again-divs {
     width: 66px;
@@ -290,6 +306,11 @@ margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 1s ease, transform 1s ease;
+}
+.again-divs:hover{
+    background-color: rgb(142, 53, 255);
+    color: white;
 }
 .again-divt {
     width: 85px;
@@ -306,6 +327,11 @@ margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 1s ease, transform 1s ease;
+}
+.again-divt:hover{
+    background-color: rgb(142, 53, 255);
+    color: white;
 }
 
 .fifth-minute{

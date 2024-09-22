@@ -194,6 +194,7 @@ background-color: white;
     letter-spacing: -1%;
     text-align: center;
     text-transform: uppercase;
+    transition: background-color, color 2 ease, transform 2 ease;
 }
 
 .personal__word button:hover {

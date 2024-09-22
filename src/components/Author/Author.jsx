@@ -14,7 +14,7 @@ function author() {
             <div className='author-p'>
                 <div className='about-author'>
                     <img src={author1} alt="" />
-                    <p>gingerbread</p>
+                    <p>John Bett</p>
                 </div>
                 <div className='about-div'>
                     <div className='d-first'>65 тестов</div>
@@ -24,7 +24,7 @@ function author() {
             <div className='author-p'>
                 <div className='about-author'>
                     <img src={author2} alt="" />
-                    <p>gingerbread</p>
+                    <p>Ban Tomas</p>
                 </div>
                 <div className='about-div'>
                     <div className='d-first'>61 тестов</div>
@@ -34,7 +34,7 @@ function author() {
             <div className='author-p'>
                 <div className='about-author'>
                     <img src={author3} alt="" />
-                    <p>gingerbread</p>
+                    <p>Ryder Pask</p>
                 </div>
                 <div className='about-div'>
                     <div className='d-first'>125 тестов</div>

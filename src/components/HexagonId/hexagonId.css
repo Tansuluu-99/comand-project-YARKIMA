@@ -39,8 +39,9 @@
     height: 600px;
     display: flex;
     flex-direction: column;
-    padding-top: 15px;
-    margin-left:-360px ;
+    padding-top: 50px;
+    margin-left:-358px ;
+    
 }
 
 .in-hexagon-img {

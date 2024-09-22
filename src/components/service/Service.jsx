@@ -11,114 +11,115 @@ import hexagon from '../../assets/svg/hexagon.svg'
 // import blackIcon from '../../assets/svg/blackIcon.svg'
 import hexagonCom from '../../data/hexagon'
 
-console.log(hexagonCom);
-
 function Service() {
-  return (
-    <>
-    <div className='all-container'>
-        <div className='about-hexagon'>
-                {
-                    hexagonCom.slice(0, 4).map((x) => (
-                    <div key={x.id} className='hex-k-img'>
-                <img src={hex2} alt="" />
-                <div className='hexagon-about'>
-                    <img src={x.image} alt="" />
-                    <h1>{x.title}</h1>
-                    <p>{x.description}</p>
-                    <div className='bottom-hexagon'>
-                        <img src={x.images} alt="" />
-                        <p>{x.course}</p>
-                    </div>
+    return (
+        <>
+            <div className='all-container'>
+                <div className='about-hexagon'>
+                    {
+                        hexagonCom.slice(0, 4).map((x) => (
+                            <a href="/cubelanguage">
+
+                            <div key={x.id} className='hex-k-img'>
+                                <img src={hex2} alt="" />
+                                <div className='hexagon-about'>
+                                    <img src={x.image} alt="" />
+                                    <h1>{x.title}</h1>
+                                    <p>{x.description}</p>
+                                    <div className='bottom-hexagon'>
+                                        <img src={x.images} alt="" />
+                                        <p>{x.course}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        ))
+                    }
                 </div>
-            </div>
-                    ))
-                }
-      </div>
 
-      <div className='about-hexagon  actives'>
-                {
-                    hexagonCom.slice(4, 7).map((x) => (
-                    <div key={x.id} className='hex-k-img'>
-                <img src={hex2} alt="" />
-                <div className='hexagon-about'>
-                    <img src={x.image} alt="" />
-                    <h1>{x.title}</h1>
-                    <p>{x.description}</p>
-                    <div className='bottom-hexagon'>
-                        <img src={x.images} alt="" />
-                        <p>{x.course}</p>
-                    </div>
+                <div className='about-hexagon  actives'>
+                    {
+                        hexagonCom.slice(4, 7).map((x) => (
+                            <div key={x.id} className='hex-k-img'>
+                                <img src={hex2} alt="" />
+                                <div className='hexagon-about'>
+                                    <img src={x.image} alt="" />
+                                    <h1>{x.title}</h1>
+                                    <p>{x.description}</p>
+                                    <div className='bottom-hexagon'>
+                                        <img src={x.images} alt="" />
+                                        <p>{x.course}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        ))
+                    }
                 </div>
+
+
+                <d2iv className='about-hexagon'>
+                    {
+                        hexagonCom.slice(7, 11).map((x) => (
+                            <div key={x.id} className='hex-k-img'>
+                                <img src={hex2} alt="" />
+                                <div className='hexagon-about'>
+                                    <img src={x.image} alt="" />
+                                    <h1>{x.title}</h1>
+                                    <p>{x.description}</p>
+                                    <div className='bottom-hexagon'>
+                                        <img src={x.images} alt="" />
+                                        <p>{x.course}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        ))
+                    }
+                </d2iv>
+
+
+                <d3iv className='about-hexagon actives'>
+                    {
+                        hexagonCom.slice(11, 14).map((x) => (
+                            <div key={x.id} className='hex-k-img'>
+                                <img src={hex2} alt="" />
+                                <div className='hexagon-about'>
+                                    <img src={x.image} alt="" />
+                                    <h1>{x.title}</h1>
+                                    <p>{x.description}</p>
+                                    <div className='bottom-hexagon'>
+                                        <img src={x.images} alt="" />
+                                        <p>{x.course}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        ))
+                    }
+                </d3iv>
+
+
+                <d4iv className='about-hexagon'>
+                    {
+                        hexagonCom.slice(14, 18).map((x) => (
+                            <div key={x.id} className='hex-k-img'>
+                                <img src={hex2} alt="" />
+                                <div className='hexagon-about'>
+                                    <img src={x.image} alt="" />
+                                    <h1>{x.title}</h1>
+                                    <p>{x.description}</p>
+                                    <div className='bottom-hexagon'>
+                                        <img src={x.images} alt="" />
+                                        <p>{x.course}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        ))
+                    }
+                </d4iv>
             </div>
-                    ))
-                }
-      </div>
 
-
-      <d2iv className='about-hexagon'>
-                {
-                    hexagonCom.slice(7, 11).map((x) => (
-                    <div key={x.id} className='hex-k-img'>
-                <img src={hex2} alt="" />
-                <div className='hexagon-about'>
-                    <img src={x.image} alt="" />
-                    <h1>{x.title}</h1>
-                    <p>{x.description}</p>
-                    <div className='bottom-hexagon'>
-                        <img src={x.images} alt="" />
-                        <p>{x.course}</p>
-                    </div>
-                </div>
-            </div>
-                    ))
-                }
-      </d2iv>
-
-
-      <d3iv className='about-hexagon actives'>
-                {
-                    hexagonCom.slice(11, 14).map((x) => (
-                    <div key={x.id} className='hex-k-img'>
-                <img src={hex2} alt="" />
-                <div className='hexagon-about'>
-                    <img src={x.image} alt="" />
-                    <h1>{x.title}</h1>
-                    <p>{x.description}</p>
-                    <div className='bottom-hexagon'>
-                        <img src={x.images} alt="" />
-                        <p>{x.course}</p>
-                    </div>
-                </div>
-            </div>
-                    ))
-                }
-      </d3iv>
-
-
-      <d4iv className='about-hexagon'>
-                {
-                    hexagonCom.slice(14, 18).map((x) => (
-                    <div key={x.id} className='hex-k-img'>
-                <img src={hex2} alt="" />
-                <div className='hexagon-about'>
-                    <img src={x.image} alt="" />
-                    <h1>{x.title}</h1>
-                    <p>{x.description}</p>
-                    <div className='bottom-hexagon'>
-                        <img src={x.images} alt="" />
-                        <p>{x.course}</p>
-                    </div>
-                </div>
-            </div>
-                    ))
-                }
-      </d4iv>
-    </div>
-
-    {/* <div className='color-line'>_</div> */}
-    </>
-  )
+            {/* <div className='color-line'>_</div> */}
+        </>
+    )
 }
 
 export default Service

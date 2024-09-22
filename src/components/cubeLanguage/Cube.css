@@ -8,8 +8,9 @@
     justify-content: space-between;
     align-items: center;
 }
-.in p:hover{
-    color:  rgb(142, 53, 255);
+
+.in p:hover {
+    color: rgb(142, 53, 255);
 }
 
 .transition p {
@@ -57,12 +58,16 @@
     align-items: center;
     transition: border 0.5s ease, transform 0.5s ease;
 }
-.so1:hover{
+
+.so1:hover {
     border: 1.5px solid rgb(142, 53, 255);
 }
 
 .flexx div {
     display: flex;
+    margin-top: -20px;
+    /* position: fixed; */
+
 }
 
 .flexx {
@@ -87,7 +92,8 @@
     transition: border 0.5s ease, transform 0.5s ease;
 
 }
-.tipp:hover{
+
+.tipp:hover {
     border: 1.5px solid rgb(142, 53, 255);
 }
 
@@ -104,7 +110,8 @@
     display: flex;
     justify-content: space-evenly;
 }
-.popularr-btn:hover{
+
+.popularr-btn:hover {
     border: 1px solid rgb(142, 53, 255);
 }
 
@@ -127,6 +134,7 @@
     width: 290px;
     display: flex;
     flex-direction: column;
+    /* position: fixed; */
 }
 
 .all-language {
@@ -220,7 +228,8 @@
     margin-top: 20px;
     transition: border 0.5s ease;
 }
-.hex-cube:hover{
+
+.hex-cube:hover {
     border: 1px solid rgb(142, 53, 255);
 }
 
@@ -235,7 +244,7 @@
 }
 
 .firstLeft {
-    width:413px;
+    width: 413px;
     /* margin: 0 auto; */
     display: flex;
     justify-content: space-between;
@@ -251,13 +260,15 @@
     width: 80px;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     transition: border 0.1s ease, tranform 0.5s ease;
 }
-.sec-star{
+
+.sec-star {
     transition: border 0.4s ease, transform 0.4s ease;
 }
-.sec-star:hover{
+
+.sec-star:hover {
     width: 90px;
     height: 32px;
     border-radius: 30px;
@@ -267,7 +278,8 @@
     justify-content: center;
     align-items: center;
 }
-.second-star p{
+
+.second-star p {
     color: gray;
 }
 
@@ -275,6 +287,7 @@
     width: 16.51px;
     height: 15.81px;
 }
+
 #p-active {
     font-family: Inter Display;
     font-size: 14px;
@@ -284,6 +297,7 @@
     text-align: left;
     color: gray;
 }
+
 #s-actives {
     font-family: Inter Display;
     font-size: 14px;
@@ -293,7 +307,8 @@
     text-align: left;
     color: gray;
 }
-.second-star p{
+
+.second-star p {
     color: black;
 }
 
@@ -366,6 +381,7 @@
     width: 40px;
     height: 40px;
 }
+
 .secondRight img:hover {
     width: 35px;
     height: 35px;
@@ -418,7 +434,8 @@
     margin-left: 20px;
     margin-top: 10px;
 }
-.bottom-about{
+
+.bottom-about {
     width: 902px;
     display: flex;
     justify-content: space-between;
@@ -426,16 +443,18 @@
     margin: 0 auto;
     margin-top: 10px;
 }
-.left-bottom{
+
+.left-bottom {
     width: 253px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.first-active{
+
+.first-active {
     width: 86px;
     height: 32px;
-    border-radius: 48px; 
+    border-radius: 48px;
     background: rgb(245, 248, 250);
     color: rgb(25, 26, 38);
     font-family: Inter Display;
@@ -443,20 +462,22 @@
     font-weight: 600;
     line-height: 20px;
     letter-spacing: -1%;
-    text-align: center;   
+    text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;    
-    transition: background-color 1s ease, transform 1s ease; 
+    align-items: center;
+    transition: background-color 1s ease, transform 1s ease;
 }
-.first-active:hover{
-    background-color:rgb(142, 53, 255) ;
+
+.first-active:hover {
+    background-color: rgb(142, 53, 255);
     color: white;
 }
-.second-active{
+
+.second-active {
     width: 66px;
     height: 32px;
-    border-radius: 48px; 
+    border-radius: 48px;
     background: rgb(245, 248, 250);
     color: rgb(25, 26, 38);
     font-family: Inter Display;
@@ -464,21 +485,23 @@
     font-weight: 600;
     line-height: 20px;
     letter-spacing: -1%;
-    text-align: center;  
+    text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;     
-    transition: background-color 1s ease, transform 1s ease; 
+    align-items: center;
+    transition: background-color 1s ease, transform 1s ease;
 
 }
-.second-active:hover{
-    background-color:rgb(142, 53, 255) ;
+
+.second-active:hover {
+    background-color: rgb(142, 53, 255);
     color: white;
 }
-.third-active{
+
+.third-active {
     width: 85px;
     height: 32px;
-    border-radius: 48px; 
+    border-radius: 48px;
     background: rgb(245, 248, 250);
     color: rgb(25, 26, 38);
     font-family: Inter Display;
@@ -486,70 +509,77 @@
     font-weight: 600;
     line-height: 20px;
     letter-spacing: -1%;
-    text-align: center;  
+    text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;   
-    transition: background-color 1s ease, transform 1s ease; 
+    align-items: center;
+    transition: background-color 1s ease, transform 1s ease;
 
 }
-.third-active:hover{
-    background-color:rgb(142, 53, 255) ;
+
+.third-active:hover {
+    background-color: rgb(142, 53, 255);
     color: white;
 }
 
-.right-bottom{
+.right-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.right-bottom h2{
+
+.right-bottom h2 {
     color: rgb(25, 26, 38);
     font-family: Inter Display;
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
     letter-spacing: -1%;
-    text-align: left;    
+    text-align: left;
 }
-.right-bottom img{
+
+.right-bottom img {
     width: 25.6px;
     height: 25.6px;
 }
 
-.all-hexagon-course{
+.all-hexagon-course {
     width: 950px;
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
+    margin-left: 400px;
 }
-.linee{
+
+.linee {
     width: 3600px;
     height: 1px;
     background-color: rgb(142, 53, 255);
     margin: 0 auto;
 }
 
-.classes{
+.classes {
     display: flex;
     justify-content: space-between;
-    align-items: center
-    ;
+    align-items: center;
 }
+
 /* ---------HOVER--------- */
 
 
-.aboutt-div-f:hover{
+.aboutt-div-f:hover {
     /* width: 56;
     height: 32px; */
-    background-color:rgb(142, 53, 255) ;
+    background-color: rgb(142, 53, 255);
     color: white;
 }
-#aboutt-div-s:hover{
-    background-color:rgb(142, 53, 255) ;
+
+#aboutt-div-s:hover {
+    background-color: rgb(142, 53, 255);
     color: white;
 }
-#aboutt-div-th:hover{
-    background-color:rgb(142, 53, 255) ;
+
+#aboutt-div-th:hover {
+    background-color: rgb(142, 53, 255);
     color: white;
 }

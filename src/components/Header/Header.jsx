@@ -22,10 +22,16 @@ function Header() {
       </div>
 
 
+
+       <div className='header-right'>
+        <Link to="./LogIn"><button className='one'>Войти</button></Link>
+        <Link to="./LogIn"><button className='two'>Зарегистрироваться</button></Link>
+
       <div className='header-center'>
         <img src={lupa} alt="" />
         <input type="text" placeholder='Поиск' />
       </div>
+
 
       <div className='header-right'>
         <Link to="./LogIn"><button className='one'>Войти</button></Link>

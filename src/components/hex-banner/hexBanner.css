@@ -291,6 +291,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: border 0.5 ease, transform 0.5 ease;
+}
+.hexagon-icon:hover{
+    border:2px solid  rgb(142, 53, 255);
 
 }
 
