@@ -96,131 +96,7 @@ export const router = createBrowserRouter([
     },
     { path: "/newHeader", element: <NewHeader /> },
     { path: "/hexagonId/id", element: <Hexagonid /> },
-
-
-
-    // { path: "/LogIn", element: <RegistrationP /> },
-    // { path: "/LogIn2", element: <Register /> },
-    // { path: "/public", element: <Public /> },
-]);
-
-            {
-                path: "/",
-                element: <Home />
-            },
-            {
-                path: "/AboutCourse",
-                element: <AboutCourse />
-            },
-            {
-                path: "/about",
-                element: <About />
-            },
-            {
-                path: "/history",
-                element: <History />
-            },
-            {
-                path: "/cube",
-                element: <Cube />
-            },
-            {
-                path: "/main",
-                element: <Main />
-            },
-            {
-                path: "/service",
-                element: <Service />
-            },
-            {
-                path: "/code",
-                element: <Code />
-            },
-            {
-                path: "/course",
-                element: <Course />
-            },
-            {
-                path: "/banner",
-                element: <Banner />
-            },
-            {
-                path: "/recommendation",
-                element: <Recommendation />
-            },
-            {
-                path: "/author",
-                element: <Author />
-            },
-            {
-                path: "/trust",
-                element: <Trust />
-            },
-            {
-                path: "/catalog",
-                element: <Katolog />
-            }, {
-                path: "/figure",
-                element: <Figure />
-            },
-            {
-                path: "/personal",
-                element: <Personal />
-            },
-            {
-                path: "/language",
-                element: <Language />
-            },
-            {
-                path: "/hexbanner",
-                element: <HexBanner />
-            },
-            {
-                path: "/popular",
-                element: <Popular />
-            },
-            {
-                path: "/language",
-                element: <Language />
-            },
-            {
-                path: "/cubelanguage",
-                element: <CubeLanguage />
-            },
-            {
-                path: "/firstCourse",
-                element: <FirstCourse />
-            },
-            {
-                path: "/description",
-                element: <Description />
-            },
-            {
-                path: "/price",
-                element: <Price />
-            },
-            {
-                path: "/aboutReviews",
-                element: <AboutRewievs />
-            },
-            {
-                path: "/information",
-                element: <Informatoin />
-            },
-            {
-                path: "/add__info",
-                element: <Add__info />
-            },
-            {
-                path: "/personal",
-                element: <Personal />
-            },
-            {
-                path: "/public",
-                element: <Public />
-            },
-        ]
-    },
+    { path: "/headerTwo", element: <HeaderTwo /> },
     {
         path: "/LogIn",
         element: <RegistrationP />
@@ -242,3 +118,129 @@ export const router = createBrowserRouter([
         element: <Hexagonid />
     },
 ])
+
+
+
+    // { path: "/LogIn", element: <RegistrationP /> },
+    // { path: "/LogIn2", element: <Register /> },
+    // { path: "/public", element: <Public /> },
+;
+
+    //         {
+    //             path: "/",
+    //             element: <Home />
+    //         },
+    //         {
+    //             path: "/AboutCourse",
+    //             element: <AboutCourse />
+    //         },
+    //         {
+    //             path: "/about",
+    //             element: <About />
+    //         },
+    //         {
+    //             path: "/history",
+    //             element: <History />
+    //         },
+    //         {
+    //             path: "/cube",
+    //             element: <Cube />
+    //         },
+    //         {
+    //             path: "/main",
+    //             element: <Main />
+    //         },
+    //         {
+    //             path: "/service",
+    //             element: <Service />
+    //         },
+    //         {
+    //             path: "/code",
+    //             element: <Code />
+    //         },
+    //         {
+    //             path: "/course",
+    //             element: <Course />
+    //         },
+    //         {
+    //             path: "/banner",
+    //             element: <Banner />
+    //         },
+    //         {
+    //             path: "/recommendation",
+    //             element: <Recommendation />
+    //         },
+    //         {
+    //             path: "/author",
+    //             element: <Author />
+    //         },
+    //         {
+    //             path: "/trust",
+    //             element: <Trust />
+    //         },
+    //         {
+    //             path: "/catalog",
+    //             element: <Katolog />
+    //         }, {
+    //             path: "/figure",
+    //             element: <Figure />
+    //         },
+    //         {
+    //             path: "/personal",
+    //             element: <Personal />
+    //         },
+    //         {
+    //             path: "/language",
+    //             element: <Language />
+    //         },
+    //         {
+    //             path: "/hexbanner",
+    //             element: <HexBanner />
+    //         },
+    //         {
+    //             path: "/popular",
+    //             element: <Popular />
+    //         },
+    //         {
+    //             path: "/language",
+    //             element: <Language />
+    //         },
+    //         {
+    //             path: "/cubelanguage",
+    //             element: <CubeLanguage />
+    //         },
+    //         {
+    //             path: "/firstCourse",
+    //             element: <FirstCourse />
+    //         },
+    //         {
+    //             path: "/description",
+    //             element: <Description />
+    //         },
+    //         {
+    //             path: "/price",
+    //             element: <Price />
+    //         },
+    //         {
+    //             path: "/aboutReviews",
+    //             element: <AboutRewievs />
+    //         },
+    //         {
+    //             path: "/information",
+    //             element: <Informatoin />
+    //         },
+    //         {
+    //             path: "/add__info",
+    //             element: <Add__info />
+    //         },
+    //         {
+    //             path: "/personal",
+    //             element: <Personal />
+    //         },
+    //         {
+    //             path: "/public",
+    //             element: <Public />
+    //         },
+    //     ]
+    // },
+   
