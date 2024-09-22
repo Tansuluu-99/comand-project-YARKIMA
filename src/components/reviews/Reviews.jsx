@@ -8,11 +8,13 @@ function Reviews({ description, age, name, image }) {
 
   return ( 
     <>
+      <h1 className='reviews__h1'>Отзывы учеников</h1>
+
     <div className='setka-rewievs'>
       <img src={setka2} alt="" />
     </div>
       <div className='rewiews'>
-      <h1>Отзывы учеников</h1>
+        
       <div className='rew'>
       {
         review.map((el) => (

@@ -15,7 +15,7 @@
     height: 40px;
 }
 
-.header-left h1 {    
+.header-left h1 {
     color: rgb(25, 26, 38);
     font-family: Roboto Flex;
     font-size: 30px;
@@ -25,6 +25,10 @@
     margin-top: 5px;
 }
 
+.header-center {
+    position: relative;
+}
+
 .header-center input {
     border-radius: 99999px;
     background: rgb(245, 248, 250);
@@ -32,6 +36,14 @@
     padding: 4px 24px 4px 24px;
     width: 400px;
     height: 48px;
+    position: relative;
+}
+
+.header-center input::before {
+    content: url(../../assets/svg/lupa.svg);
+    position: absolute;
+    right: 0;
+    z-index: 9999;
 }
 
 .one {
@@ -55,6 +67,9 @@
     align-items: center;
     text-transform: uppercase;
 }
+.one:hover {
+    border: 2px solid rgb(142, 53, 255);
+}
 
 .two {
     border-radius: 99999px;
@@ -75,10 +90,40 @@
     letter-spacing: -1%;
     text-align: center;
     text-transform: uppercase;
-
 }
 
-.header-right{
+.two:hover {
+    border: 2px solid rgb(142, 53, 255);
+}
+
+.header-right {
     display: flex;
     gap: 10px;
+}
+
+.headso {
+    width: 135px !important;
+    height: 48px !important;
+    margin-left: 25px;
+}
+
+.header-center img {
+    position: absolute;
+    top: 15px;
+    left: 370px;
+    z-index: 99;
+    /* left: 100px; */
+}
+
+.header__line {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 18px;
+}
+
+.h__line {
+    width: 32px;
+    height: 2px;
+    background-color: black;
 }
